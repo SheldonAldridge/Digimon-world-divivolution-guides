@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: digimon;
+}
+
+@font-face{
+    font-family: "digimon";
+    src: url("PixelDigivolve-mOm9.eot");
+}
+
+.egg-images{
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.egg-images img{
+    max-width: 80%;
+    margin-left: 0.5em;
+}
+
