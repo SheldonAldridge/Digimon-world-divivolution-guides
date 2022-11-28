@@ -65,7 +65,7 @@ let digiList = [
         image: new URL("https://www.grindosaur.com/img/games/digimon-world/digimon/111-tsunomon.jpg"),
         stage: "In-Training",
         type: "Data",
-        digivolution: "Punimon",
+        digivolution: ["Elecmon", "Penguinmon"],
         preDigivolution: "Punimon"
     },
 
@@ -75,7 +75,7 @@ let digiList = [
         image: new URL("https://www.grindosaur.com/img/games/digimon-world/digimon/103-tanemon.jpg"),
         stage: "In-Training",
         type: "Data",
-        digivolution: "punimon",
+        digivolution: ["Palmon", "Betamon"],
         preDigivolution: "Yuramon"
     },
 
@@ -89,14 +89,13 @@ let digiList = [
         image: new URL("https://www.grindosaur.com/img/games/digimon-world/digimon/1-agumon.jpg"),
         stage: "Rookie",
         type: "Vaccine",
-        digivolutions:{
-            greymon:"Greymon",
-            meramon:"Meramon",
-            birdramon:"Birdramon",
-            centarumon:"Centarumon",
-            monochromon:"Monochromon",
-            tyrannomon:"Tyrannomon",
-        },
+        digivolutions:
+            ["Greymon",
+            "Meramon",
+            "Birdramon",
+            "Centarumon",
+            "Monochromon",
+            "Tyrannomon"],
         preDigivolution: "Koromon"
     },
 
