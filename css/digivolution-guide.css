@@ -6,17 +6,33 @@ body{
 
 @font-face{
     font-family: "digimon";
-    src: url("PixelDigivolve-mOm9.eot");
+    src: url("/fonts/digimon-text/PixelDigivolveItalic-dV8R.ttf");
+}
+
+.question{
+    position: absolute;
 }
 
 .egg-images{
-    background-color: black;
+    background-image: url(/Images/hero-image.png);
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    background-position: 10% 60%;
+}
+
+.hero-container h3{
+    color:white;
+    position:absolute;
+    margin-left: 4em;
+    font-weight: 100;
 }
 
 .egg-images img{
     max-width: 80%;
-    margin-left: 0.5em;
+    padding-top: 6em;
+    padding-left: 0.5em;
+    padding-bottom: 1em;
 }
+
+
 
