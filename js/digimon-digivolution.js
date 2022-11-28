@@ -45,8 +45,7 @@ let digiList = [
         image: new URL("https://www.grindosaur.com/img/games/digimon-world/digimon/50-koromon.jpg"),
         stage: "In-Training",
         type: "Data",
-        lineOne: "Agumon",
-        lineTwo: "Gabumon",
+        digivolution: ["Agumon", "Gabumon"],
         preDigivolution: "Botamon"
     },
 
@@ -56,7 +55,7 @@ let digiList = [
         image: new URL("https://www.grindosaur.com/img/games/digimon-world/digimon/108-tokomon.jpg"),
         stage: "In-Training",
         type: "Data",
-        digivolution: "Punimon",
+        digivolution: ["Biyomon", "Patamon"],
         preDigivolution: "Poyomon"
     },
 
