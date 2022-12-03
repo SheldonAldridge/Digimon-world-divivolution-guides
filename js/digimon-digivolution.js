@@ -8,24 +8,28 @@ let digiList = [
             id:"blue",
             eggtype:"blue",
             digimon:"Punimon",
+            image: new url("/Images/Blue Egg - mobile.png")
         },
 
         greenEgg:{
             id:"green",
             eggtype:"green",
             digimon:"Botamon",
+            image: new url("/Images/Green Egg - mobile.png")
         },
 
         orangeEgg:{
             id:"orange",
             eggtype:"orange",
             digimon:"Poyomon",
+            image: new url("/Images/Orange Egg - mobile.png")
         },
 
         pinkEgg:{
             id:"pink",
             eggtype:"pink",
             digimon:"Yuramon",
+            image: new url("/Images/Pink Egg - mobile.png") 
         },
     },
 
@@ -37,7 +41,8 @@ let digiList = [
             name:"Botamon",
             stage:"Baby",
             type:"Data",
-            digivolution:["Koromon"]
+            digivolution:["Koromon"],
+            image: new url("https://www.grindosaur.com/img/games/digimon-world/digimon/12-botamon.jpg") 
         },
 
         poyomon:{
@@ -45,7 +50,8 @@ let digiList = [
             name:"Poyomon",
             stage:"Baby",
             type:"Data",
-            digivolution:["Tokomon"]
+            digivolution:["Tokomon"],
+            image: new url("https://www.grindosaur.com/img/games/digimon-world/digimon/86-poyomon.jpg")
         },
 
         punimon:{
@@ -53,7 +59,8 @@ let digiList = [
             name:"Punimon",
             stage:"Baby",
             type:"Data",
-            digivolution:["Tsunomon"]
+            digivolution:["Tsunomon"],
+            image: new url("https://www.grindosaur.com/img/games/digimon-world/digimon/88-punimon.jpg")
         },
 
         yuramon:{
@@ -61,7 +68,8 @@ let digiList = [
             name:"Yuramon",
             stage:"Baby",
             type:"Data",
-            digivolution:["Tanemon"]
+            digivolution:["Tanemon"],
+            image: new url("https://www.grindosaur.com/img/games/digimon-world/digimon/123-yuramon.jpg")
         },
     },
 
@@ -75,7 +83,8 @@ let digiList = [
             stage:"In-Training",
             type:"Data",
             preDigivolution:["Botamon"],
-            digivolution:["Agumon","Gabumon","Kunemon"]
+            digivolution:["Agumon","Gabumon","Kunemon"],
+            image: new url("https://www.grindosaur.com/img/games/digimon-world/digimon/50-koromon.jpg")
         },
 
         tokomon:{
@@ -84,7 +93,8 @@ let digiList = [
             stage:"In-Training",
             type:"Data",
             preDigivolution:["Poyomon"],
-            digivolution:["Patamon","Biyomon","Kunemon"]
+            digivolution:["Patamon","Biyomon","Kunemon"],
+            image: new url("https://www.grindosaur.com/img/games/digimon-world/digimon/108-tokomon.jpg")
         },
 
         tsunomon:{
@@ -93,7 +103,8 @@ let digiList = [
             stage:"In-Training",
             type:"Data",
             preDigivolution:["Punimon"],
-            digivolution:["Elecmon","Penguinmon","Kunemon"]
+            digivolution:["Elecmon","Penguinmon","Kunemon"],
+            image: new url("https://www.grindosaur.com/en/games/digimon/digimon-world/digimon/111-tsunomon")
         },
 
         tanemon:{
@@ -102,7 +113,8 @@ let digiList = [
             stage:"In-Training",
             type:"Data",
             preDigivolution:["Yuramon"],
-            digivolution:["Betamon","Palmon","Kunemon"]
+            digivolution:["Betamon","Palmon","Kunemon"],
+            image: new url("https://www.grindosaur.com/img/games/digimon-world/digimon/103-tanemon.jpg")
         },
     },
 
@@ -116,7 +128,18 @@ let digiList = [
             stage:"Rookie",
             type:"Vaccine",
             preDigivolution:["Koromon"],
-            digivolution:["Greymon","Meramon","Monochromon","Tyrannomon","Nanimon","Numemon","Sukamon","Centarumon","Birdramon"]
+            digivolution:["Greymon","Meramon","Monochromon","Tyrannomon","Nanimon","Numemon","Sukamon","Centarumon","Birdramon"],
+            image: new url("https://www.grindosaur.com/img/games/digimon-world/digimon/1-agumon.jpg"),
+            statReq:{
+                HP:1000,
+                MP:500,
+                Offence:100,
+                Deffence:50,
+                Speed:50,
+                Brains:50,
+                Mistakes:0,
+                Weight: 20,
+            },
         },
 
         gabumon:{
@@ -125,7 +148,18 @@ let digiList = [
             stage:"Rookie",
             type:"Data",
             preDigivolution:["Koromon"],
-            digivolution:["Drimogemon","Garurumon","Ogremon","Tyrannomon","Nanimon","Numemon","Sukamon","Centarumon","Monochromon"]
+            digivolution:["Drimogemon","Garurumon","Ogremon","Tyrannomon","Nanimon","Numemon","Sukamon","Centarumon","Monochromon"],
+            image: new url("https://www.grindosaur.com/img/games/digimon-world/digimon/29-gabumon.jpg"),
+            statReq:{
+                HP:500,
+                MP:500,
+                Offence:50,
+                Deffence:100,
+                Speed:100,
+                Brains:50,
+                Mistakes:0,
+                Weight: 20,
+            },
         },
 
         patamon:{
@@ -134,7 +168,18 @@ let digiList = [
             stage:"Rookie",
             type:"Data",
             preDigivolution:["Tokomon"],
-            digivolution:["Leomon","Angemon","Unimon","Tyrannomon","Nanimon","Numemon","Sukamon","Ogremon","Drimogemon"]
+            digivolution:["Leomon","Angemon","Unimon","Tyrannomon","Nanimon","Numemon","Sukamon","Ogremon","Drimogemon"],
+            image: new url("https://www.grindosaur.com/img/games/digimon-world/digimon/80-patamon.jpg"),
+            statReq:{
+                HP:500,
+                MP:500,
+                Offence:100,
+                Deffence:50,
+                Speed:50,
+                Brains:100,
+                Mistakes:0,
+                Weight: 20,
+            },
         },
 
         biyomon:{
@@ -143,7 +188,18 @@ let digiList = [
             stage:"Rookie",
             type:"Vaccine",
             preDigivolution:["Tokomon"],
-            digivolution:["Kabuterimon","Airdramon","Nanimon","Numemon","Sukamon","Birdramon","Unimon","Kokatorimon"]
+            digivolution:["Kabuterimon","Airdramon","Nanimon","Numemon","Sukamon","Birdramon","Unimon","Kokatorimon"],
+            image: new url("https://www.grindosaur.com/img/games/digimon-world/digimon/10-biyomon.jpg"),
+            statReq:{
+                HP:500,
+                MP:1000,
+                Offence:50,
+                Deffence:50,
+                Speed:100,
+                Brains:50,
+                Mistakes:0,
+                Weight: 20,
+            },
         },
 
         elecmon:{
@@ -152,7 +208,18 @@ let digiList = [
             stage:"Rookie",
             type:"Data",
             preDigivolution:["Tsunomon"],
-            digivolution:["Bakemon","Nanimon","Numemon","Sukamon","Leomon","Angemon","Kokatorimon"]
+            digivolution:["Bakemon","Nanimon","Numemon","Sukamon","Leomon","Angemon","Kokatorimon"],
+            image: new url("https://www.grindosaur.com/img/games/digimon-world/digimon/24-elecmon.jpg"),
+            statReq:{
+                HP:500,
+                MP:500,
+                Offence:100,
+                Deffence:50,
+                Speed:100,
+                Brains:50,
+                Mistakes:0,
+                Weight: 20,
+            },
         },
 
         penguinmon:{
@@ -162,6 +229,17 @@ let digiList = [
             type:"Data",
             preDigivolution:["Tsunomon"],
             digivolution:["Mojyamon","Frigimon","Shellmon","Whamon","Nanimon","Numemon","Sukamon","Garurumon"],
+            image: new url("https://www.grindosaur.com/img/games/digimon-world/digimon/81-penguinmon.jpg"),
+            statReq:{
+                HP:500,
+                MP:500,
+                Offence:50,
+                Deffence:100,
+                Speed:50,
+                Brains:100,
+                Mistakes:0,
+                Weight: 20,
+            },
         },
 
         betamon:{
@@ -170,7 +248,18 @@ let digiList = [
             stage:"Rookie",
             type:"Virus",
             preDigivolution:["Tanemon"],
-            digivolution:["Shellmon","Whamon","Nanimon","Numemon","Sukamon","Seadramon"]
+            digivolution:["Shellmon","Whamon","Nanimon","Numemon","Sukamon","Seadramon"],
+            image: new url("https://www.grindosaur.com/img/games/digimon-world/digimon/8-betamon.jpg"),
+            statReq:{
+                HP:1000,
+                MP:500,
+                Offence:50,
+                Deffence:100,
+                Speed:50,
+                Brains:50,
+                Mistakes:0,
+                Weight: 20,
+            },
         },
 
         palmon:{
@@ -179,7 +268,18 @@ let digiList = [
             stage:"Rookie",
             type:"Vaccine",
             preDigivolution:["Tanemon"],
-            digivolution:["Nanimon","Numemon","Sukamon","Whamon","Ninjamon","Kuwagamon"]
+            digivolution:["Nanimon","Numemon","Sukamon","Whamon","Ninjamon","Kuwagamon"],
+            image: new url("https://www.grindosaur.com/en/games/digimon/digimon-world/digimon/78-palmon"),
+            statReq:{
+                HP:500,
+                MP:1000,
+                Offence:50,
+                Deffence:50,
+                Speed:50,
+                Brains:100,
+                Mistakes:0,
+                Weight: 20,
+            },
         },
         
         kunemon:{
@@ -188,7 +288,20 @@ let digiList = [
             stage:"Rookie",
             type:"Virus",
             preDigivolution:["Koromon","Tokomon","Tsunomon","Tanemon"],
-            digivolution:["Bakemon","Nanimon","Numemon","Sukamon","Kabuterimon","Kuwagamon"]
+            digivolution:["Bakemon","Nanimon","Numemon","Sukamon","Kabuterimon","Kuwagamon"],
+            image: new url("https://www.grindosaur.com/img/games/digimon-world/digimon/51-kunemon.jpg"),
+            statReq:{
+                HP:1000,
+                MP:1000,
+                Offence:50,
+                Deffence:50,
+                Speed:50,
+                Brains:50,
+                Mistakes:0,
+            },
+            specialReq:{
+                Condition:"Sleep by Kunemon's Bed,there is a 50% chance any In-Training will digivolve into Kunemon"
+            }
         },
 
     },
@@ -203,7 +316,26 @@ let digiList = [
             stage:"Champion",
             type:"Vaccine",
             preDigivolution:["Agumon"],
-            digivolution:[]
+            digivolution:["MetalGreymon","SkullGreymon"],
+            image: new url("https://www.grindosaur.com/img/games/digimon-world/digimon/37-greymon.jpg"),
+            statReq:{
+                HP:2000,
+                MP:1500,
+                Offence:200,
+                Deffence:200,
+                Speed:200,
+                Brains:200,
+                Mistakes:1,
+                Weight: 35,
+                Discopline:90,
+            },
+            specialReq:{
+               item:"Grey Claws"
+            },
+            bonus:{
+                techniques:35,
+            }
+            
         },
 
         meramon:{
@@ -212,7 +344,25 @@ let digiList = [
             stage:"Champion",
             type:"Data",
             preDigivolution:["Agumon"],
-            digivolution:[]
+            digivolution:["MetalGreymon","Andromon"],
+            image: new url("https://www.grindosaur.com/img/games/digimon-world/digimon/59-meramon.jpg"),
+            statReq:{
+                HP:1000,
+                MP:1500,
+                Offence:250,
+                Deffence:150,
+                Speed:150,
+                Brains:150,
+                Mistakes:5,
+                Weight: 25,
+            },
+            specialReq:{
+               item:"Fireball",
+            },
+            bonus:{
+                battles:10,
+                techniques:28,
+            }
         },
 
         monochromon:{
@@ -221,7 +371,25 @@ let digiList = [
             stage:"Champion",
             type:"Data",
             preDigivolution:["Agumon","Gabumon"],
-            digivolution:[]
+            digivolution:["MetalGreymon","MetalMamemon"],
+            image: new url("https://www.grindosaur.com/img/games/digimon-world/digimon/66-monochromon.jpg"),
+            statReq:{
+                HP:2000,
+                MP:1500,
+                Offence:150,
+                Deffence:250,
+                Speed:150,
+                Brains:200,
+                Mistakes:3,
+                Weight: 45,
+            },
+            specialReq:{
+               item:"Mono Stone",
+            },
+            bonus:{
+                battles:5,
+                techniques:35,
+            }
         },
 
         drimogemon:{
@@ -230,7 +398,25 @@ let digiList = [
             stage:"Champion",
             type:"Data",
             preDigivolution:["Gabumon","Patamon"],
-            digivolution:[]
+            digivolution:["MetalGreymon"],
+            image: new url("https://www.grindosaur.com/img/games/digimon-world/digimon/23-drimogemon.jpg"),
+            statReq:{
+                HP:1500,
+                MP:1500,
+                Offence:250,
+                Deffence:150,
+                Speed:150,
+                Brains:150,
+                Mistakes:3,
+                Weight: 45,
+                Happiness:50,
+            },
+            specialReq:{
+               item:"Steel Drill",
+            },
+            bonus:{
+                techniques:28,
+            }
         },
 
         tyrannomon:{
@@ -239,7 +425,25 @@ let digiList = [
             stage:"Champion",
             type:"Data",
             preDigivolution:["Agumon","Gabumon","Patamon"],
-            digivolution:[]
+            digivolution:["MetalGreymon","Megadramon"],
+            image: new url("https://www.grindosaur.com/img/games/digimon-world/digimon/112-tyrannomon.jpg"),
+            statReq:{
+                HP:2000,
+                MP:1500,
+                Offence:150,
+                Deffence:200,
+                Speed:150,
+                Brains:150,
+                Mistakes:5,
+                Weight: 35,
+            },
+            specialReq:{
+               item:"White Fang",
+            },
+            bonus:{
+                battles:5,
+                techniques:28,
+            }
         },
 
         bakemon:{
@@ -248,7 +452,25 @@ let digiList = [
             stage:"Champion",
             type:"Virus",
             preDigivolution:["Elecmon","Kunemon"],
-            digivolution:[]
+            digivolution:["SkullGreymon","Giromon"],
+            image: new url("https://www.grindosaur.com/img/games/digimon-world/digimon/7-bakemon.jpg"),
+            statReq:{
+                HP:1500,
+                MP:2500,
+                Offence:150,
+                Deffence:100,
+                Speed:150,
+                Brains:100,
+                Mistakes:3,
+                Weight:25,
+                Happiness:50,
+            },
+            specialReq:{
+               item:"Torn Tatter",
+            },
+            bonus:{
+                techniques:28,
+            }
         },
 
         garurumon:{
@@ -257,7 +479,25 @@ let digiList = [
             stage:"Champion",
             type:"Vaccine",
             preDigivolution:["Gabumon","Penguinmon"],
-            digivolution:[]
+            digivolution:["SkullGreymon","MegaSeadramon"],
+            image: new url("https://www.grindosaur.com/img/games/digimon-world/digimon/30-garurumon.jpg"),
+            statReq:{
+                HP:1500,
+                MP:1500,
+                Offence:150,
+                Deffence:200,
+                Speed:150,
+                Brains:150,
+                Mistakes:1,
+                Weight:35,
+                Discipline:90,
+            },
+            specialReq:{
+               item:"Bluecrystal",
+            },
+            bonus:{
+                techniques:28,
+            }
         },
 
         mojyamon:{
@@ -266,7 +506,25 @@ let digiList = [
             stage:"Champion",
             type:"Vaccine",
             preDigivolution:["Penguinmon"],
-            digivolution:[]
+            digivolution:["SkullGreymon","Mamemon"],
+            image: new url("https://www.grindosaur.com/img/games/digimon-world/digimon/65-mojyamon.jpg"),
+            statReq:{
+                HP:2000,
+                MP:1500,
+                Offence:150,
+                Deffence:150,
+                Speed:150,
+                Brains:150,
+                Mistakes:5,
+                Weight:25,
+            },
+            specialReq:{
+               item:"Hair grower",
+            },
+            bonus:{
+                battles:5,
+                techniques:28,
+            }
         },
 
         nanimon:{
@@ -275,7 +533,22 @@ let digiList = [
             stage:"Champion",
             type:"Virus",
             preDigivolution:["Agumon","Gabumon","Patamon","Patamon","Biyomon","Biyomon","Kunemon","Betamon","Elecmon","Penguinmon"],
-            digivolution:[]
+            digivolution:["Digitamamon"],
+            image: new url("https://www.grindosaur.com/img/games/digimon-world/digimon/72-nanimon.jpg"),
+            statReq:{
+                HP:0,
+                MP:0,
+                Offence:0,
+                Deffence:0,
+                Speed:0,
+                Brains:10,
+            },
+            specialReq:{
+               item:"Sunglasses",
+            },
+            bonus:{
+                
+            }
         },
 
         numemon:{
@@ -284,7 +557,7 @@ let digiList = [
             stage:"Champion",
             type:"Virus",
             preDigivolution:["Agumon","Gabumon","Patamon","Patamon","Biyomon","Biyomon","Kunemon","Betamon","Elecmon","Penguinmon"],
-            digivolution:[]
+            digivolution:[],
         },
 
         sukamon:{
@@ -293,7 +566,7 @@ let digiList = [
             stage:"Champion",
             type:"Virus",
             preDigivolution:["Agumon","Gabumon","Patamon","Patamon","Biyomon","Biyomon","Kunemon","Betamon","Elecmon","Penguinmon"],
-            digivolution:[]
+            digivolution:[],
         },
 
         whamon:{
@@ -302,7 +575,7 @@ let digiList = [
             stage:"Champion",
             type:"Vaccine",
             preDigivolution:["Palmon","Betamon","Penguinmon"],
-            digivolution:[]
+            digivolution:[],
         },
 
         ninjamon:{
@@ -311,7 +584,7 @@ let digiList = [
             stage:"Champion",
             type:"Data",
             preDigivolution:["Palmon"],
-            digivolution:[]
+            digivolution:[],
         },
 
         frigimon:{
@@ -320,7 +593,7 @@ let digiList = [
             stage:"Champion",
             type:"Vaccine",
             preDigivolution:["Penguinmon"],
-            digivolution:[]
+            digivolution:[],
         },
 
         centarumon:{
@@ -329,7 +602,7 @@ let digiList = [
             stage:"Champion",
             type:"Data",
             preDigivolution:["Agumon","Gabumon"],
-            digivolution:[]
+            digivolution:[],
         },
 
         ogremon:{
@@ -338,7 +611,7 @@ let digiList = [
             stage:"Champion",
             type:"Virus",
             preDigivolution:["Gabumon","Patamon"],
-            digivolution:[]
+            digivolution:[],
         },
 
         leomon:{
@@ -347,7 +620,7 @@ let digiList = [
             stage:"Champion",
             type:"Vaccine",
             preDigivolution:["Patamon","Elecmon"],
-            digivolution:[]
+            digivolution:[],
         },
 
         kabuterimon:{
@@ -356,7 +629,7 @@ let digiList = [
             stage:"Champion",
             type:"Vaccine",
             preDigivolution:["Biyomon","Kunemon"],
-            digivolution:[]
+            digivolution:[],
         },
 
         kuwagamon:{
@@ -365,7 +638,7 @@ let digiList = [
             stage:"Champion",
             type:"Virus",
             preDigivolution:["Kunemon","Palmon"],
-            digivolution:[]
+            digivolution:[],
         },
 
         shellmon:{
@@ -374,7 +647,7 @@ let digiList = [
             stage:"Champion",
             type:"Data",
             preDigivolution:["Betamon","Penguinmon"],
-            digivolution:[]
+            digivolution:[],
         },
 
         birdramon:{
@@ -383,7 +656,7 @@ let digiList = [
             stage:"Champion",
             type:"Vaccine",
             preDigivolution:["Agumon","Biyomon"],
-            digivolution:[]
+            digivolution:[],
         },
 
         angemon:{
@@ -392,7 +665,16 @@ let digiList = [
             stage:"Champion",
             type:"Vaccine",
             preDigivolution:["Patamon","Elecmon"],
-            digivolution:[]
+            digivolution:[],
+        },
+
+        devimon:{
+            id:"devimon",
+            name:"Devimon",
+            stage:"Champion",
+            type:"Virus",
+            preDigivolution:["angemon"],
+            digivolution:[],
         },
 
         airdramon:{
@@ -401,7 +683,7 @@ let digiList = [
             stage:"Champion",
             type:"Vaccine",
             preDigivolution:["Biyomon"],
-            digivolution:[]
+            digivolution:[],
         },
 
         kokatorimon:{
@@ -410,7 +692,7 @@ let digiList = [
             stage:"Champion",
             type:"Vaccine",
             preDigivolution:["Elecmon","Biyomon"],
-            digivolution:[]
+            digivolution:[],
         },
 
         unimon:{
@@ -419,7 +701,7 @@ let digiList = [
             stage:"Champion",
             type:"Vaccine",
             preDigivolution:["Patamon","Biyomon"],
-            digivolution:[]
+            digivolution:[],
         },
 
         seadramon:{
@@ -428,7 +710,7 @@ let digiList = [
             stage:"Champion",
             type:"Data",
             preDigivolution:["Betamon"],
-            digivolution:[]
+            digivolution:[],
         },
 
     },
