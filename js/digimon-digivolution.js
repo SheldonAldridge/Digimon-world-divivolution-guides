@@ -546,9 +546,6 @@ let digiList = [
             specialReq:{
                item:"Sunglasses",
             },
-            bonus:{
-                
-            }
         },
 
         numemon:{
@@ -557,7 +554,22 @@ let digiList = [
             stage:"Champion",
             type:"Virus",
             preDigivolution:["Agumon","Gabumon","Patamon","Patamon","Biyomon","Biyomon","Kunemon","Betamon","Elecmon","Penguinmon"],
-            digivolution:[],
+            digivolution:["Monzaemon"],
+            image: new url("https://www.grindosaur.com/img/games/digimon-world/digimon/75-numemon.jpg"),
+            statReq:{
+                HP:0,
+                MP:0,
+                Offence:0,
+                Deffence:0,
+                Speed:0,
+                Brains:8,
+            },
+            specialReq:{
+              digivolve:"Go to Toy Town and find A manzimon suit in the costume room, Numemon will get into the suit and become Monzaemon",
+            },
+            bonus:{
+                access:"Numemon is of the Virus type allowing you to enter Grey Lord's Mansion."
+            }
         },
 
         sukamon:{
@@ -566,7 +578,22 @@ let digiList = [
             stage:"Champion",
             type:"Virus",
             preDigivolution:["Agumon","Gabumon","Patamon","Patamon","Biyomon","Biyomon","Kunemon","Betamon","Elecmon","Penguinmon"],
-            digivolution:[],
+            digivolution:["Etemon"],
+            image: new url("https://www.grindosaur.com/img/games/digimon-world/digimon/102-sukamon.jpg"),
+            statReq:{
+                HP:0,
+                MP:0,
+                Offence:0,
+                Deffence:0,
+                Speed:0,
+                Brains:5,
+            },
+            specialReq:{
+              digivolve:"Sukamon digivolves from any Rookie level Digimon if their poop gauge reaches the maximum",
+            },
+            bonus:{
+                access:"Sukamon is of the Virus type allowing you to enter Grey Lord's Mansion."
+            }
         },
 
         whamon:{
@@ -575,7 +602,26 @@ let digiList = [
             stage:"Champion",
             type:"Vaccine",
             preDigivolution:["Palmon","Betamon","Penguinmon"],
-            digivolution:[],
+            digivolution:["MegaSeadramon","Mamemon"],
+            image: new url("https://www.grindosaur.com/img/games/digimon-world/digimon/121-whamon.jpg"),
+            statReq:{
+                HP:2500,
+                MP:1500,
+                Offence:100,
+                Deffence:150,
+                Speed:100,
+                Brains:200,
+                Mistakes:5,
+                Weight:45,
+                Discipline:60,
+            },
+            specialReq:{
+                item:"North Star"
+            },
+            bonus:{
+                access:"Whamon is of the Vaccine type allowing you to enter the Ice Sanctuary.",
+                Techniques:28,
+            }
         },
 
         ninjamon:{
@@ -585,6 +631,27 @@ let digiList = [
             type:"Data",
             preDigivolution:["Palmon"],
             digivolution:[],
+            digivolution:["MegaSeadramon","Mamemon"],
+            image: new url("https://www.grindosaur.com/img/games/digimon-world/digimon/73-ninjamon.jpg"),
+            statReq:{
+                HP:1500,
+                MP:2000,
+                Offence:200,
+                Deffence:150,
+                Speed:200,
+                Brains:150,
+                Mistakes:1,
+                Weight:15,
+                
+            },
+            specialReq:{
+                item:"Koga laws"
+            },
+            bonus:{
+                access:"Whamon is of the Vaccine type allowing you to enter the Ice Sanctuary.",
+                Techniques:35,
+                Battles:15
+            }
         },
 
         frigimon:{
@@ -593,7 +660,26 @@ let digiList = [
             stage:"Champion",
             type:"Vaccine",
             preDigivolution:["Penguinmon"],
-            digivolution:[],
+            digivolution:["MetalMamemon","Mamemon"],
+            image: new url("https://www.grindosaur.com/img/games/digimon-world/digimon/27-frigimon.jpg"),
+            statReq:{
+                HP:1500,
+                MP:2000,
+                Offence:100,
+                Deffence:150,
+                Speed:150,
+                Brains:200,
+                Mistakes:5,
+                Weight:35,
+                Happiness:50,
+            },
+            specialReq:{
+                item:"Ice crystal",
+            },
+            bonus:{
+                access:"Whamon is of the Vaccine type allowing you to enter the Ice Sanctuary.",
+                Techniques:28,
+            }
         },
 
         centarumon:{
@@ -603,6 +689,25 @@ let digiList = [
             type:"Data",
             preDigivolution:["Agumon","Gabumon"],
             digivolution:[],
+            image: new url("https://www.grindosaur.com/img/games/digimon-world/digimon/27-frigimon.jpg"),
+            statReq:{
+                HP:1500,
+                MP:1500,
+                Offence:150,
+                Deffence:150,
+                Speed:150,
+                Brains:250,
+                Mistakes:3,
+                Weight:25 + "-" + 35,
+                Happiness:50,
+            },
+            specialReq:{
+                item:"Ice crystal",
+            },
+            bonus:{
+                access:"Whamon is of the Vaccine type allowing you to enter the Ice Sanctuary.",
+                Techniques:28,
+            }
         },
 
         ogremon:{
