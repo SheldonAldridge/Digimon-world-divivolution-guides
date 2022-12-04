@@ -136,11 +136,13 @@ let digiList = [
                 Deffence:50,
                 Speed:50,
                 Brains:50,
-                Mistakes:0,
                 Weight:10 + "-" + 20,
             },
             specialReq:{
                 digimonreq:"Koromon"
+            },
+            bonus:{
+                Mistakes:0,
             },
 
             accessArea:"Ice Sanctuary.",
@@ -161,11 +163,13 @@ let digiList = [
                 Deffence:100,
                 Speed:100,
                 Brains:50,
-                Mistakes:0,
                 Weight:10 + "-" + 20,
             },
             specialReq:{
                 digimonreq:"Koromon"
+            },
+            bonus:{
+                Mistakes:0,
             },
             accessArea:"",
         },
@@ -185,11 +189,13 @@ let digiList = [
                 Deffence:50,
                 Speed:50,
                 Brains:100,
-                Mistakes:0,
                 Weight:10 + "-" + 20,
             },
             specialReq:{
                 digimonreq:"Tokomon"
+            },
+            bonus:{
+                Mistakes:0,
             },
             accessArea:"",
         },
@@ -209,11 +215,13 @@ let digiList = [
                 Deffence:50,
                 Speed:100,
                 Brains:50,
-                Mistakes:0,
                 Weight:10+ "-" + 20,
             },
             specialReq:{
                 digimonreq:"Tokomon"
+            },
+            bonus:{
+                Mistakes:0,
             },
             accessArea:"Ice Sanctuary.",
         },
@@ -233,11 +241,13 @@ let digiList = [
                 Deffence:50,
                 Speed:100,
                 Brains:50,
-                Mistakes:0,
                 Weight:10 + "-" + 20,
             },
             specialReq:{
                 digimonreq:"Tsunomon"
+            },
+            bonus:{
+                Mistakes:0,
             },
             accessArea:"",
         },
@@ -257,11 +267,13 @@ let digiList = [
                 Deffence:100,
                 Speed:50,
                 Brains:100,
-                Mistakes:0,
                 Weight:10 + "-" + 20,
             },
             specialReq:{
                 digimonreq:"Tsunomon"
+            },
+            bonus:{
+                Mistakes:0,
             },
             accessArea:"",
         },
@@ -281,11 +293,13 @@ let digiList = [
                 Deffence:100,
                 Speed:50,
                 Brains:50,
-                Mistakes:0,
                 Weight:10 + "-" + 20,
             },
             specialReq:{
                 digimonreq:"Tsunomon"
+            },
+            bonus:{
+                Mistakes:0,
             },
             
             accessArea:"Grey Lord's Mansion.",
@@ -306,8 +320,10 @@ let digiList = [
                 Deffence:50,
                 Speed:50,
                 Brains:100,
-                Mistakes:0,
                 Weight:10 + "-" + 20,
+            },
+            bonus:{
+                Mistakes:0,
             },
             accessArea:"Ice Sanctuary.",
         },
@@ -330,6 +346,9 @@ let digiList = [
             },
             specialReq:{
                 Condition:"Sleep by Kunemon's Bed,there is a 50% chance any In-training will digivolve into Kunemon",
+            },
+            bonus:{
+                Mistakes:0,
             },
             accessArea:"Grey Lord's Mansion.",
         },
@@ -467,15 +486,15 @@ let digiList = [
                 Deffence:200,
                 Speed:150,
                 Brains:150,
-                Mistakes:5,
-                Weight: 35,
+                Weight: 25 + " - " + 35,
             },
             specialReq:{
                item:"White Fang",
             },
             bonus:{
-                battles:5,
-                techniques:28,
+                battles:"<" + 5,
+                techniques:">" + 28,
+                Mistakes:"<" + 3,
             },
             accessArea:""
         },
@@ -495,15 +514,15 @@ let digiList = [
                 Deffence:100,
                 Speed:150,
                 Brains:100,
-                Mistakes:3,
-                Weight:25,
-                Happiness:50,
+                Weight:15 + " - " + 25,
             },
             specialReq:{
                item:"torn tatter",
             },
             bonus:{
-                techniques:28,
+                Mistakes:">" + 3,
+                techniques:">" + 28,
+                Happiness:">" + 50,
             },
             accessArea:"Grey Lord's Mansion."
         },
@@ -523,15 +542,16 @@ let digiList = [
                 Deffence:200,
                 Speed:150,
                 Brains:150,
-                Mistakes:1,
-                Weight:35,
-                Discipline:90,
+                Weight:25 + "-" + 35,
+                
             },
             specialReq:{
                item:"Bluecrystal",
             },
             bonus:{
-                techniques:28,
+                techniques:"<" + 28,
+                Mistakes:"<" + 1,
+                Discipline:">" + 90,
             },
             accessArea:"Ice Sanctuary."
         },
@@ -558,8 +578,8 @@ let digiList = [
                item:"Hair grower",
             },
             bonus:{
-                battles:5,
-                techniques:28,
+                battles:"<" + 5,
+                techniques:">" + 28,
             },
             accessArea:"Ice Sanctuary."
         },
@@ -579,9 +599,18 @@ let digiList = [
                 Deffence:0,
                 Speed:0,
                 Brains:10,
+                Weight:"",
             },
             specialReq:{
                item:"Sunglasses",
+            },
+            bonus:{
+                battles:"",
+                techniques:"",
+                Mistakes:"",
+                Happiness:"",
+                Discipline:""
+
             },
             accessArea:" Grey Lord's Mansion."
         },
@@ -603,7 +632,14 @@ let digiList = [
                 Brains:8,
             },
             specialReq:{
-              digivolve:"Go to toy town and find A manzimon suit in the costume room, Numemon will get into the suit and become Monzaemon",
+                item:"",
+            },
+            bonus:{
+                battles:"",
+                techniques:"",
+                Mistakes:"",
+                Happiness:"",
+                Discipline:"",
             },
             accessArea:" Grey Lord's Mansion."
         },
@@ -625,9 +661,15 @@ let digiList = [
                 Brains:5,
             },
             specialReq:{
-              digivolve:"Sukamon digivolves from any Rookie level Digimon if their poop gauge reaches the maximum",
+                item:"",
             },
-            
+            bonus:{
+                battles:"",
+                techniques:"",
+                Mistakes:"",
+                Happiness:"",
+                Discipline:"",
+            },
             accessArea:" Grey Lord's Mansion."
         },
 
@@ -646,16 +688,17 @@ let digiList = [
                 Deffence:150,
                 Speed:100,
                 Brains:200,
-                Mistakes:5,
-                Weight:45,
-                Discipline:60,
+                Weight:35 + "-" + 45,
             },
             specialReq:{
                 item:"North Star"
             },
             bonus:{
-                accessArea:"Whamon is of the Vaccine type allowing you to enter the Ice Sanctuary.",
-                techniques:28,
+                battles:"",
+                techniques:">" + 28,
+                Mistakes:"<" + 5,
+                Happiness:"",
+                Discipline:">" + 60,
             },
             accessArea:"Ice Sanctuary."
         },
@@ -666,8 +709,7 @@ let digiList = [
             stage:"Champion",
             type:"Data",
             preDigivolution:["Palmon"],
-            digivolution:[],
-            digivolution:["MegaSeadramon","Mamemon"],
+            digivolution:["Piximon","MetalMamemon","Mamemon"],
             image: "https://www.grindosaur.com/img/games/digimon-world/digimon/73-ninjamon.jpg",
             statReq:{
                 HP:1500,
@@ -677,16 +719,17 @@ let digiList = [
                 Speed:200,
                 Brains:150,
                 Mistakes:1,
-                Weight:15,
-                
+                Weight:5 + "-" + 15,
             },
             specialReq:{
                 item:"Koga laws"
             },
             bonus:{
-                accessArea:"Whamon is of the Vaccine type allowing you to enter the Ice Sanctuary.",
-                techniques:35,
-                Battles:15
+                battles:">" + 15,
+                techniques:">" + 28,
+                Mistakes:"<" + 5,
+                Happiness:"",
+                Discipline:">" + 60,
             },
             accessArea:""
         },
@@ -705,17 +748,18 @@ let digiList = [
                 Offence:100,
                 Deffence:150,
                 Speed:150,
-                Brains:200,
-                Mistakes:5,
-                Weight:35,
-                Happiness:50,
+                Brains:200,               
+                Weight:25 + "-" + 35,
             },
             specialReq:{
                 item:"Ice crystal",
             },
             bonus:{
-                accessArea:"Whamon is of the Vaccine type allowing you to enter the Ice Sanctuary.",
-                techniques:28,
+                battles:">" + 15,
+                techniques:">" + 28,
+                Mistakes:"<" + 5,
+                Happiness:"",
+                Discipline:"",
             },
             accessArea:"Ice Sanctuary."
         },
@@ -735,18 +779,19 @@ let digiList = [
                 Deffence:150,
                 Speed:150,
                 Brains:250,
-                Mistakes:3,
                 Weight:25 + "-" + 35,
-                Happiness:50,
             },
             specialReq:{
                 item:"Iron Hoof",
             },
             bonus:{
-                accessArea:"Whamon is of the Vaccine type allowing you to enter the Ice Sanctuary.",
-                techniques:28,
+                battles:">" + 15,
+                techniques:">" + 28,
+                Mistakes:"<" + 3,
+                Happiness:">" + 50,
+                Discipline:"",
             },
-            accessArea:""
+            accessArea:"Ice Sanctuary."
         },
 
         ogremon:{
@@ -764,17 +809,19 @@ let digiList = [
                 Deffence:150,
                 Speed:100,
                 Brains:250,
-                Mistakes:5,
                 Weight:25 + " - " + 35,
             },
             specialReq:{
                 item:"Spike Club",
             },
             bonus:{
-                accessArea:"Ogremon is of the Virus type allowing you to enter Grey Lord's Mansion.",
-                techniques:35,
-                Battles:15,
+                battles:">" + 15,
+                techniques:">" + 28,
+                Mistakes:"<" + 3,
+                Happiness:">" + 50,
+                Discipline:"",
             },
+          
             accessArea:"Grey Lord's Mansion."
         },
 
