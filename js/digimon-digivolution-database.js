@@ -1,5 +1,5 @@
 
-let digiList = [
+export let digiList = [
 
 
     /*Egg Stage Digimon Object*/
@@ -379,7 +379,8 @@ let digiList = [
                 Discipline:">" + 90,
             },
             specialReq:{
-               item:"Grey Claws"
+               digivolveItem:"Grey Claws",
+               condition:"",
             },
             bonus:{
                 techniques:">" + 35,
@@ -406,7 +407,8 @@ let digiList = [
                 Weight: 25 + " - " + 35,
             },
             specialReq:{
-               item:"Fireball",
+               digivolveItem:"Fireball",
+               condition:"",
             },
             bonus:{
                 battles:">" + 10,
@@ -434,7 +436,8 @@ let digiList = [
                 Weight: 35 + " - " + 45,
             },
             specialReq:{
-               item:"Mono Stone",
+               digivolveItem:"Mono Stone",
+               condition:"",
             },
             bonus:{
                 battles:"<" + 5,
@@ -463,7 +466,8 @@ let digiList = [
                 Happiness:">" + 50,
             },
             specialReq:{
-               item:"Steel Drill",
+               digivolveItem:"Steel Drill",
+               condition:"",
             },
             bonus:{
                 techniques:">" + 28,
@@ -489,7 +493,8 @@ let digiList = [
                 Weight: 25 + " - " + 35,
             },
             specialReq:{
-               item:"White Fang",
+               digivolveItem:"White Fang",
+               condition:"",
             },
             bonus:{
                 battles:"<" + 5,
@@ -517,7 +522,8 @@ let digiList = [
                 Weight:15 + " - " + 25,
             },
             specialReq:{
-               item:"torn tatter",
+               digivolveItem:"torn tatter",
+               condition:"",
             },
             bonus:{
                 Mistakes:">" + 3,
@@ -546,7 +552,8 @@ let digiList = [
                 
             },
             specialReq:{
-               item:"Bluecrystal",
+               digivolveItem:"Bluecrystal",
+               condition:"",
             },
             bonus:{
                 techniques:"<" + 28,
@@ -575,7 +582,8 @@ let digiList = [
                 Weight:25,
             },
             specialReq:{
-               item:"Hair grower",
+               digivolveItem:"Hair grower",
+               condition:"",
             },
             bonus:{
                 battles:"<" + 5,
@@ -602,7 +610,8 @@ let digiList = [
                 Weight:"",
             },
             specialReq:{
-               item:"Sunglasses",
+               digivolveItem:"Sunglasses",
+               condition:"",
             },
             bonus:{
                 battles:"",
@@ -632,7 +641,8 @@ let digiList = [
                 Brains:8,
             },
             specialReq:{
-                item:"",
+                digivolveItem:"",
+                condition:"",
             },
             bonus:{
                 battles:"",
@@ -661,7 +671,8 @@ let digiList = [
                 Brains:5,
             },
             specialReq:{
-                item:"",
+                digivolveItem:"",
+                condition:"",
             },
             bonus:{
                 battles:"",
@@ -691,7 +702,8 @@ let digiList = [
                 Weight:35 + "-" + 45,
             },
             specialReq:{
-                item:"North Star"
+                digivolveItem:"North Star",
+                condition:"",
             },
             bonus:{
                 battles:"",
@@ -722,7 +734,8 @@ let digiList = [
                 Weight:5 + "-" + 15,
             },
             specialReq:{
-                item:"Koga laws"
+                digivolveItem:"Koga laws",
+                condition:"",
             },
             bonus:{
                 battles:">" + 15,
@@ -752,7 +765,8 @@ let digiList = [
                 Weight:25 + "-" + 35,
             },
             specialReq:{
-                item:"Ice crystal",
+                digivolveItem:"Ice crystal",
+                condition:"",
             },
             bonus:{
                 battles:">" + 15,
@@ -782,7 +796,8 @@ let digiList = [
                 Weight:25 + "-" + 35,
             },
             specialReq:{
-                item:"Iron Hoof",
+                digivolveItem:"Iron Hoof",
+                condition:"",
             },
             bonus:{
                 battles:"",
@@ -812,7 +827,8 @@ let digiList = [
                 Weight:25 + " - " + 35,
             },
             specialReq:{
-                item:"Spike Club",
+                digivolveItem:"Spike Club",
+                condition:"",
             },
             bonus:{
                 battles:">" + 15,
@@ -843,7 +859,8 @@ let digiList = [
                 Weight:15 + " - " + 25,
             },
             specialReq:{
-                item:"Ice crystal",
+                digivolveItem:"Ice crystal",
+                condition:"",
             },
             bonus:{
                 battles:">" + 10,
@@ -873,8 +890,9 @@ let digiList = [
                 Weight:25 + " - " + 35,
             },
             specialReq:{
-                item:"Horn helmet",
-                keyDigimon:"Kunemon"
+                digivolveItem:"Horn helmet",
+                keyDigimon:"Kunemon",
+                condition:"",
             },
             bonus:{
                 battles:">" + 10,
@@ -882,6 +900,7 @@ let digiList = [
                 Mistakes:"<" + 1,
                 Happiness:"",
                 Discipline:"",
+               
             },
             accessArea:"Grey Lord's Mansion."
         },
@@ -905,8 +924,9 @@ let digiList = [
                 Weight:25 + " - " + 35,
             },
             specialReq:{
-                item:"Scissor jaw",
-                keyDigimon:"Kunemon"
+                digivolveItem:"Scissor jaw",
+                keyDigimon:"Kunemon",
+                condition:"",
             },
             bonus:{
                 battles:">" + 10,
@@ -937,8 +957,9 @@ let digiList = [
                 Weight:35 + " - " + 45,
             },
             specialReq:{
-                item:"Red Shell",
-                keyDigimon:"Betamon"
+                digivolveItem:"Red Shell",
+                keyDigimon:"Betamon",
+                condition:"",
                
             },
             bonus:{
@@ -969,7 +990,8 @@ let digiList = [
                 Weight:15 + " - " + 25,
             },
             specialReq:{
-                item:"Flamingwing",
+                digivolveItem:"Flamingwing",
+                condition:"",
             },
             bonus:{
                 techniques:35,
@@ -1005,7 +1027,8 @@ let digiList = [
                 Weight:15 + " - " + 25,
             },
             specialReq:{
-                item:"White Wing",
+                digivolveItem:"White Wing",
+                condition:"",
             },
             bonus:{
                 battles:"",
@@ -1030,9 +1053,9 @@ let digiList = [
                 Discipline:">" + 50 + "%"
             },
             specialReq:{
-                item:"Black Wing",
-                digivolve:"An Angemon has 50 % chance to Digigivolve to a Devimon when its discipline gauge is below 50 % and it loses a battle",
-                digimonreq:"Angemon"
+                digivolveItem:"Black Wing",
+                condition:"An Angemon has 50 % chance to Digigivolve to a Devimon when its discipline gauge is below 50 % and it loses a battle",
+                keyDigimon:"Angemon",
             },
             bonus:{
                 techniques:35,
@@ -1060,10 +1083,16 @@ let digiList = [
                 Weight:25 + " - " + 35,
             },
             specialReq:{
-                item:"Rainbowhorn",
+                digivolveItem:"Rainbowhorn",
+                condition:"",
             },
             bonus:{
-                techniques:35,
+                battles:"",
+                techniques:">" + 35,
+                Mistakes:">" + 5,
+                Happiness:"",
+                Discipline:">" + 90,
+                keyDigimon:""
             },
             accessArea:"Ice Sanctuary."
         },
@@ -1087,10 +1116,16 @@ let digiList = [
                 Weight:25 + " - " + 35,
             },
             specialReq:{
-                item:"Rooster",
+                digivolveItem:"Rooster",
+                condition:"",
             },
             bonus:{
-                techniques:">"+28,
+                battles:"",
+                techniques:">" + 28,
+                Mistakes:">" + 3,
+                Happiness:"",
+                Discipline:"",
+                keyDigimon:"Biyomon"
             },
             accessArea:"Ice Sanctuary."
         },
@@ -1114,11 +1149,16 @@ let digiList = [
                 Weight:25 + " - " + 35,
             },
             specialReq:{
-                item:"Unihorn",
+                digivolveItem:"Unihorn",
+                condition:"",
             },
             bonus:{
-                techniques:">"+ 35,
                 battles:">" + 10,
+                techniques:">" + 35,
+                Mistakes:">" + 3,
+                Happiness:"",
+                Discipline:"",
+                keyDigimon:""
             },
             accessArea:"Ice Sanctuary."
         },
@@ -1142,11 +1182,16 @@ let digiList = [
                 Weight:25 + " - " + 35,
             },
             specialReq:{
-                item:"Waterbottle",
+                digivolveItem:"Waterbottle",
+                condition:"",
             },
             bonus:{
-                techniques:">"+ 28,
-                battles:"<" + 5,
+                battles:">" + 5,
+                techniques:">" + 28,
+                Mistakes:">" + 3,
+                Happiness:"",
+                Discipline:"",
+                keyDigimon:""
             },
             accessArea:""
         },
@@ -1175,13 +1220,16 @@ let digiList = [
                 Weight:60 + " - " + 70,
             },
             specialReq:{
-                item:"Waterbottle",
+                digivolveItem:"Waterbottle",
+                condition:"",
             },
             bonus:{
-                techniques:">"+ 28,
-                battles:"<" + 5,
-                Discipline: ">" + 95,
-                Battles: ">" + 95
+                battles:">" + 30,
+                techniques:">" + 30,
+                Mistakes:"<" + 10,
+                Happiness:"",
+                Discipline:"",
+                keyDigimon:""
             },
             accessArea:"Grey Lord's Mansion"
         },
@@ -1204,13 +1252,16 @@ let digiList = [
                 Weight:60 + " - " + 70,
             },
             specialReq:{
-                item:"Metal part",
+                digivolveItem:"Metal part",
+                condition:"",
             },
             bonus:{
-                techniques:">"+ 28,
-                battles:"<" + 5,
-                Discipline: ">" + 95,
-                Battles: ">" + 95
+                battles:">" + 40,
+                techniques:">" + 45,
+                Mistakes:">" + 10,
+                Happiness:"",
+                Discipline:"",
+                keyDigimon:""
             },
             accessArea:"Grey Lord's Mansion"
         },
@@ -1232,14 +1283,16 @@ let digiList = [
                 Weight:5 + " - " + 15,
             },
             specialReq:{
-                item:"Mysty Egg",
+                digivolveItem:"Mysty Egg",
+                condition:"",
             },
             bonus:{
-                techniques:">"+ 28,
-                battles:"<" + 5,
-                Discipline: ">" + 95,
-                Battles: ">" + 95,
-                Mistakes:"<" + 10,
+                battles:">" + 100,
+                techniques:">" + 49,
+                Mistakes:">" + 0,
+                Happiness:"",
+                Discipline:"",
+                keyDigimon:""
             },
             accessArea:"Grey Lord's Mansion"
         },
@@ -1261,14 +1314,16 @@ let digiList = [
                 Weight:35 + " - " + 45,
             },
             specialReq:{
-                item:"Mysty Egg",
+                digivolveItem:"X Bandage",
+                condition:"",
             },
             bonus:{
-                techniques:">"+ 28,
-                battles:"<" + 5,
-                Discipline: ">" + 95,
-                Battles: ">" + 95,
-                Mistakes:"<" + 0,
+                battles:">" + 50,
+                techniques:">" + 49,
+                Mistakes:">" + 0,
+                Happiness:"",
+                Discipline:"",
+                keyDigimon:""
             },
             accessArea:"Ice Sanctuary."
         },
@@ -1279,6 +1334,29 @@ let digiList = [
             stage:"Ultimate",
             type:"Virus",
             preDigivolution:["Sukamon"],
+            image: "https://www.grindosaur.com/img/games/digimon-world/digimon/25-etemon.jpg",
+            statReq:{
+                HP:4000,
+                MP:5000,
+                Offence:600,
+                Deffence:400,
+                Speed:600,
+                Brains:500,
+                Weight:10 + " - " + 20,
+            },
+            specialReq:{
+                digivolveItem:"Gold banana",
+                condition:"",
+            },
+            bonus:{
+                battles:">" + 50,
+                techniques:">" + 49,
+                Mistakes:"<" + 0,
+                Happiness:"",
+                Discipline:"",
+                keyDigimon:""
+            },
+            accessArea:"Grey Lord's Mansion."
         },
 
         mamemon:{
@@ -1287,6 +1365,29 @@ let digiList = [
             stage:"Ultimate",
             type:"Data",
             preDigivolution:["Leomon","Ninjamon","Frigimon","Mojyamon"],
+            image: "https://www.grindosaur.com/img/games/digimon-world/digimon/55-mamemon.jpg",
+            statReq:{
+                HP:3000,
+                MP:3000,
+                Offence:600,
+                Deffence:500,
+                Speed:500,
+                Brains:600,
+                Weight:0 + " - " + 20,
+            },
+            specialReq:{
+                digivolveItem:"Silver ball",
+                condition:"",
+            },
+            bonus:{
+                battles:"",
+                techniques:">" + 49,
+                Mistakes:"<" + 0,
+                Happiness:">" + 90,
+                Discipline:"",
+                keyDigimon:""
+            },
+            accessArea:""
         },
 
         metalmamemon:{
@@ -1295,6 +1396,29 @@ let digiList = [
             stage:"Ultimate",
             type:"Data",
             preDigivolution:["Monochromon","Kabuterimon","Ninjamon","Frigimon"],
+            image: "https://www.grindosaur.com/img/games/digimon-world/digimon/62-metalmamemon.jpg",
+            statReq:{
+                HP:3000,
+                MP:3000,
+                Offence:600,
+                Deffence:500,
+                Speed:500,
+                Brains:600,
+                Weight:5 + " - " + 15,
+            },
+            specialReq:{
+                digivolveItem:"Metal armor",
+                condition:"",
+            },
+            bonus:{
+                battles:"",
+                techniques:">" + 30,
+                Mistakes:"<" + 15,
+                Happiness:">" + 95,
+                Discipline:"",
+                keyDigimon:""
+            },
+            accessArea:""
         },
 
         andromon:{
@@ -1303,6 +1427,29 @@ let digiList = [
             stage:"Ultimate",
             type:"Vaccine",
             preDigivolution:["Meramon","Centarumon","Ogremon","Leomon","Angemon"],
+            image: "https://www.grindosaur.com/img/games/digimon-world/digimon/4-andromon.jpg",
+            statReq:{
+                HP:4000,
+                MP:6000,
+                Offence:400,
+                Deffence:600,
+                Speed:400,
+                Brains:600,
+                Weight:35 + " - " + 45,
+            },
+            specialReq:{
+                digivolveItem:"Cyber part",
+                condition:"",
+            },
+            bonus:{
+                battles:">" + 30,
+                techniques:">" + 30,
+                Mistakes:"<" + 5,
+                Happiness:"",
+                Discipline:">" + 95,
+                keyDigimon:""
+            },
+            accessArea:"Ice Sanctuary."
         },
 
         herculesKabuterimon:{
@@ -1311,6 +1458,29 @@ let digiList = [
             stage:"Ultimate",
             type:"Data",
             preDigivolution:["Kabuterimon","Kuwagamon","Shellmon"],
+            image: "https://www.grindosaur.com/img/games/digimon-world/digimon/40-h-kabuterimon.jpg",
+            statReq:{
+                HP:5000,
+                MP:5000,
+                Offence:500,
+                Deffence:500,
+                Speed:500,
+                Brains:500,
+                Weight:50 + " - " + 60,
+            },
+            specialReq:{
+                digivolveItem:"Beetlepearl",
+                condition:"",
+            },
+            bonus:{
+                battles:"<" + 0,
+                techniques:">" + 40,
+                Mistakes:"<" + 5,
+                Happiness:"",
+                Discipline:"",
+                keyDigimon:""
+            },
+            accessArea:""
         },
 
         phoenixmon:{
@@ -1319,6 +1489,29 @@ let digiList = [
             stage:"Ultimate",
             type:"Vaccine",
             preDigivolution:["Birdramon","Angemon","Airdramon","Kokatorimon","Unimon"],
+            image: "https://www.grindosaur.com/img/games/digimon-world/digimon/82-phoenixmon.jpg",
+            statReq:{
+                HP:6000,
+                MP:6000,
+                Offence:400,
+                Deffence:400,
+                Speed:600,
+                Brains:600,
+                Weight:25 + " - " + 35,
+            },
+            specialReq:{
+                digivolveItem:"Red Ruby",
+                condition:"",
+            },
+            bonus:{
+                battles:"<" + 0,
+                techniques:">" + 40,
+                Mistakes:"<" + 3,
+                Happiness:"",
+                Discipline:">" + 100,
+                keyDigimon:""
+            },
+            accessArea:"Ice Sanctuary."
         },
 
         vademon:{
@@ -1328,6 +1521,60 @@ let digiList = [
             type:"Virus",
             preDigivolution:["Greymon","tyranomon","Angemon","Devimon","Meramon","AirDramon","SeaDramon","Kabuterimon","Garuramon","Frigimon","Monochromon","Drimogemon","Bakemon",
         "Mojyamon","Nanimon","Numemon","Sukamon","Whamon","Ninjamon","Centarumon","Ogremon","Leomon","Kuwagamon","Shellmon","Birdramon","Kokatorimon","Unimon"],
+        image: "https://www.grindosaur.com/img/games/digimon-world/digimon/114-vademon.jpg",
+            statReq:{
+                HP:5000,
+                MP:5000,
+                Offence:500,
+                Deffence:500,
+                Speed:500,
+                Brains:500,
+                Weight:"",
+            },
+            specialReq:{
+                digivolveItem:"Ray Gun",
+                condition:"All Champion Digimon can Digivolves to Vademon after 360 hours elapse as a Champion Digimon"
+            },
+            bonus:{
+                battles:"<" + 0,
+                techniques:">" + 40,
+                Mistakes:"<" + 3,
+                Happiness:"",
+                Discipline:">" + 100,
+                keyDigimon:""
+            },
+            accessArea:"Grey Lord's Mansion."
+        },
+
+        megaDramon:{
+            id:"megadramon",
+            name:"Megadramon",
+            stage:"Ultimate",
+            type:"Virus",
+            preDigivolution:["Tyrannomon","	Devimon","Airdramon","Seadramon"],
+        image: "https://www.grindosaur.com/img/games/digimon-world/digimon/57-megadramon.jpg",
+            statReq:{
+                HP:6000,
+                MP:6000,
+                Offence:600,
+                Deffence:500,
+                Speed:600,
+                Brains:500,
+                Weight:50 + "-" +60,
+            },
+            specialReq:{
+                digivolveItem:"	Mega Hand",
+                condition:"",
+            },
+            bonus:{
+                battles:">" + 30,
+                techniques:">" + 30,
+                Mistakes:"<" + 10,
+                Happiness:"",
+                Discipline:"",
+                keyDigimon:""
+            },
+            accessArea:"Grey Lord's Mansion."
         },
     }
 ]
