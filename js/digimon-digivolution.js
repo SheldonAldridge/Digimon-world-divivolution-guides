@@ -758,7 +758,7 @@ let digiList = [
                 battles:">" + 15,
                 techniques:">" + 28,
                 Mistakes:"<" + 5,
-                Happiness:"",
+                Happiness:">" + 50,
                 Discipline:"",
             },
             accessArea:"Ice Sanctuary."
@@ -770,7 +770,7 @@ let digiList = [
             stage:"Champion",
             type:"Data",
             preDigivolution:["Agumon","Gabumon"],
-            digivolution:[],
+            digivolution:["Andromon","Giromon"],
             image: "https://www.grindosaur.com/img/games/digimon-world/digimon/27-frigimon.jpg",
             statReq:{
                 HP:1500,
@@ -785,11 +785,11 @@ let digiList = [
                 item:"Iron Hoof",
             },
             bonus:{
-                battles:">" + 15,
+                battles:"",
                 techniques:">" + 28,
                 Mistakes:"<" + 3,
-                Happiness:">" + 50,
-                Discipline:"",
+                Happiness:"",
+                Discipline:">" + 60,
             },
             accessArea:"Ice Sanctuary."
         },
@@ -817,8 +817,8 @@ let digiList = [
             bonus:{
                 battles:">" + 15,
                 techniques:">" + 28,
-                Mistakes:"<" + 3,
-                Happiness:">" + 50,
+                Mistakes:"",
+                Happiness:"",
                 Discipline:"",
             },
           
@@ -840,18 +840,19 @@ let digiList = [
                 Deffence:150,
                 Speed:200,
                 Brains:200,
-                Mistakes:1,
                 Weight:15 + " - " + 25,
             },
             specialReq:{
                 item:"Ice crystal",
             },
             bonus:{
-                accessArea:"Ogremon is of the Virus type allowing you to enter Grey Lord's Mansion.",
-                techniques:35,
-                Battles:10,
+                battles:">" + 10,
+                techniques:">" + 35,
+                Mistakes:"<" + 1,
+                Happiness:"",
+                Discipline:"",
             },
-            accessArea:"Ice Sanctuary."
+            accessArea:"Grey Lord's Mansion."
         },
 
         kabuterimon:{
@@ -869,17 +870,20 @@ let digiList = [
                 Deffence:200,
                 Speed:200,
                 Brains:100,
-                Mistakes:1,
                 Weight:25 + " - " + 35,
             },
             specialReq:{
                 item:"Horn helmet",
+                keyDigimon:"Kunemon"
             },
             bonus:{
-                accessArea:"Kabuterimon is of the Vaccine type allowing you to enter the Ice Sanctuary.",
-                techniques:35,
+                battles:">" + 10,
+                techniques:">" + 35,
+                Mistakes:"<" + 1,
+                Happiness:"",
+                Discipline:"",
             },
-            accessArea:"Ice Sanctuary."
+            accessArea:"Grey Lord's Mansion."
         },
 
         kuwagamon:{
@@ -902,11 +906,14 @@ let digiList = [
             },
             specialReq:{
                 item:"Scissor jaw",
+                keyDigimon:"Kunemon"
             },
             bonus:{
-                accessArea:"Kuwagamon is of the Virus type allowing you to enter Grey Lord's Mansion.",
-                techniques:28,
-                keyDigimon:"Kunemon"
+                battles:">" + 10,
+                techniques:">" + 28,
+                Mistakes:">" + 5,
+                Happiness:"",
+                Discipline:"",
             },
             accessArea:"Grey Lord's Mansion."
         },
@@ -931,10 +938,15 @@ let digiList = [
             },
             specialReq:{
                 item:"Red Shell",
+                keyDigimon:"Betamon"
+               
             },
             bonus:{
-                techniques:35,
-                keyDigimon:"Betamon"
+                battles:"",
+                techniques:">" + 35,
+                Mistakes:">" + 5,
+                Happiness:"",
+                Discipline:"",
             },
             accessArea:""
         },
@@ -954,7 +966,6 @@ let digiList = [
                 Deffence:100,
                 Speed:250,
                 Brains:150,
-                Mistakes:3,
                 Weight:15 + " - " + 25,
             },
             specialReq:{
@@ -965,6 +976,13 @@ let digiList = [
                 accessArea:"Birdramon is of the Vaccine type allowing you to enter the Ice Sanctuary.",
                 keyDigimon:"Biyomon",
             },
+            bonus:{
+                battles:"",
+                techniques:">" + 35,
+                Mistakes:">" + 5,
+                Happiness:"",
+                Discipline:"",
+            },
             accessArea:"Ice Sanctuary."
         },
 
@@ -974,7 +992,7 @@ let digiList = [
             stage:"Champion",
             type:"Vaccine",
             preDigivolution:["Patamon","Elecmon"],
-            digivolution:[],
+            digivolution:["Phoenixmon","Andromon"],
             image: "https://www.grindosaur.com/img/games/digimon-world/digimon/5-angemon.jpg",
             statReq:{
                 HP:1500,
@@ -990,8 +1008,11 @@ let digiList = [
                 item:"White Wing",
             },
             bonus:{
-                techniques:35,
-                accessArea:"Angemon is of the Vaccine type allowing you to enter the Ice Sanctuary.",
+                battles:"",
+                techniques:">" + 35,
+                Mistakes:">" + 5,
+                Happiness:"",
+                Discipline:"",
                 keyDigimon:"Patamon"
             },
             accessArea:"Ice Sanctuary."
