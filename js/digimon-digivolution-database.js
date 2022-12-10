@@ -5,41 +5,40 @@ const app = {createApp}  = vue
 createApp({
     date(){
         return{
-            digiList:[
-
                 /*Egg Stage Digimon Object*/
-                egg:{
+                egg:[
             
-                    blueEgg:{
+                    {
                         id:"blue",
                         eggtype:"blue",
                         digimon:"Punimon",
                     },
             
-                    greenEgg:{
+                    {
                         id:"green",
                         eggtype:"green",
                         digimon:"Botamon",
                     },
             
-                    orangeEgg:{
+                   {
                         id:"orange",
                         eggtype:"orange",
                         digimon:"Poyomon",
                     },
             
-                    pinkEgg:{
+                    {
                         id:"pink",
                         eggtype:"pink",
                         digimon:"Yuramon",
                     },
                     
-                },
+                ],
             
                 /*Baby Stage Digimon Object*/
             
-                new baby={
-                    botamon:{
+                baby:[
+                    
+                    {
                         id:"botamon",
                         name:"Botamon",
                         stage:"Baby",
@@ -48,7 +47,7 @@ createApp({
                         image: "https://www.grindosaur.com/img/games/digimon-world/digimon/12-botamon.jpg"
                     },
             
-                    poyomon:{
+                    {
                         id:"poyomon",
                         name:"Poyomon",
                         stage:"Baby",
@@ -57,7 +56,7 @@ createApp({
                         image: "https://www.grindosaur.com/img/games/digimon-world/digimon/86-poyomon.jpg"
                     },
             
-                    punimon:{
+                    {
                         id:"punimon",
                         name:"Punimon",
                         stage:"Baby",
@@ -66,7 +65,7 @@ createApp({
                         image: "https://www.grindosaur.com/img/games/digimon-world/digimon/88-punimon.jpg"
                     },
             
-                    yuramon:{
+                    {
                         id:"yuramon",
                         name:"Yuramon",
                         stage:"Baby",
@@ -74,13 +73,13 @@ createApp({
                         digivolution:["tanemon"],
                         image: "https://www.grindosaur.com/img/games/digimon-world/digimon/123-yuramon.jpg"
                     },
-                },
+                ],
             
                 /*In-training Stage Digimon Object*/
             
-                intraining={
+                intraining:[
             
-                    koromon:{
+                    {
                         id:"koromon",
                         name:"Koromon",
                         stage:"In-training",
@@ -90,7 +89,7 @@ createApp({
                         image: "https://www.grindosaur.com/img/games/digimon-world/digimon/50-koromon.jpg"
                     },
             
-                    tokomon:{
+                    {
                         id:"tokomon",
                         name:"Koromon",
                         stage:"In-training",
@@ -100,7 +99,7 @@ createApp({
                         image: "https://www.grindosaur.com/img/games/digimon-world/digimon/108-tokomon.jpg"
                     },
             
-                    tsunomon:{
+                    {
                         id:"tsunomon",
                         name:"tsunomon",
                         stage:"In-training",
@@ -110,7 +109,7 @@ createApp({
                         image: "https://www.grindosaur.com/en/games/digimon/digimon-world/digimon/111-tsunomon"
                     },
             
-                    tanemon:{
+                    {
                         id:"tanemon",
                         name:"tanemon",
                         stage:"In-training",
@@ -119,13 +118,13 @@ createApp({
                         digivolution:["Betamon","Palmon","Kunemon"],
                         image: "https://www.grindosaur.com/img/games/digimon-world/digimon/103-tanemon.jpg"
                     },
-                },
+                ],
             
                  /*Rookie Stage Digimon Object*/
             
-                 rookie={
+                 rookie:[
             
-                    agumon:{
+                    {
                         id:"agumon",
                         name:"Agumon",
                         stage:"Rookie",
@@ -152,7 +151,7 @@ createApp({
                         accessArea:"Ice Sanctuary.",
                     },
             
-                    gabumon:{
+                    {
                         id:"gabumon",
                         name:"Gabumon",
                         stage:"Rookie",
@@ -178,7 +177,7 @@ createApp({
                         accessArea:"",
                     },
             
-                    patamon:{
+                    {
                         id:"patamon",
                         name:"Patamon",
                         stage:"Rookie",
@@ -204,7 +203,7 @@ createApp({
                         accessArea:"",
                     },
             
-                    biyomon:{
+                    {
                         id:"biyomon",
                         name:"Biyomon",
                         stage:"Rookie",
@@ -230,7 +229,7 @@ createApp({
                         accessArea:"Ice Sanctuary.",
                     },
             
-                    elecmon:{
+                    {
                         id:"elecmon",
                         name:"Elecmon",
                         stage:"Rookie",
@@ -256,7 +255,7 @@ createApp({
                         accessArea:"",
                     },
             
-                    penguinmon:{
+                    {
                         id:"penguinmon",
                         name:"Penguinmon",
                         stage:"Rookie",
@@ -282,7 +281,7 @@ createApp({
                         accessArea:"",
                     },
             
-                    betamon:{
+                    {
                         id:"betamon",
                         name:"Betamon",
                         stage:"Rookie",
@@ -309,7 +308,7 @@ createApp({
                         accessArea:"Grey Lord's Mansion.",
                     },
             
-                    palmon:{
+                    {
                         id:"palmon",
                         name:"Palmon",
                         stage:"Rookie",
@@ -332,7 +331,7 @@ createApp({
                         accessArea:"Ice Sanctuary.",
                     },
                     
-                    kunemon:{
+                    {
                         id:"kunemon",
                         name:"Kunemon",
                         stage:"Rookie",
@@ -357,13 +356,13 @@ createApp({
                         accessArea:"Grey Lord's Mansion.",
                     },
             
-                },
+                ],
             
                  /*Champion Stage Digimon Object*/
             
-                 champion={
+                 champion:[
             
-                    greymon:{
+                    {
                         id:"greymon",
                         name:"Greymon",
                         stage:"Champion",
@@ -392,7 +391,7 @@ createApp({
                         accessArea:"Ice Sanctuary."
                     },
             
-                    meramon:{
+                    {
                         id:"meramon",
                         name:"Meramon",
                         stage:"Champion",
@@ -421,7 +420,7 @@ createApp({
                         accessArea:""
                     },
             
-                    monochromon:{
+                    {
                         id:"monochromon",
                         name:"Monochromon",
                         stage:"Champion",
@@ -450,7 +449,7 @@ createApp({
                         accessArea:""
                     },
             
-                    drimogemon:{
+                    {
                         id:"drimogemon",
                         name:"Drimogemon",
                         stage:"Champion",
@@ -479,7 +478,7 @@ createApp({
                         accessArea:""
                     },
             
-                    tyrannomon:{
+                    {
                         id:"tyrannomon",
                         name:"tyrannomon",
                         stage:"Champion",
@@ -508,7 +507,7 @@ createApp({
                         accessArea:""
                     },
             
-                    bakemon:{
+                    {
                         id:"bakemon",
                         name:"Bakemon",
                         stage:"Champion",
@@ -537,7 +536,7 @@ createApp({
                         accessArea:"Grey Lord's Mansion."
                     },
             
-                    garurumon:{
+                    {
                         id:"garurumon",
                         name:"Garurumon",
                         stage:"Champion",
@@ -567,7 +566,7 @@ createApp({
                         accessArea:"Ice Sanctuary."
                     },
             
-                    mojyamon:{
+                    {
                         id:"mojyamon",
                         name:"Mojyamon",
                         stage:"Champion",
@@ -596,7 +595,7 @@ createApp({
                         accessArea:"Ice Sanctuary."
                     },
             
-                    nanimon:{
+                    {
                         id:"nanimon",
                         name:"Nanimon",
                         stage:"Champion",
@@ -628,7 +627,7 @@ createApp({
                         accessArea:" Grey Lord's Mansion."
                     },
             
-                    numemon:{
+                    {
                         id:"numemon",
                         name:"Numemon",
                         stage:"Champion",
@@ -658,7 +657,7 @@ createApp({
                         accessArea:" Grey Lord's Mansion."
                     },
             
-                    sukamon:{
+                    {
                         id:"sukamon",
                         name:"Sukamon",
                         stage:"Champion",
@@ -688,7 +687,7 @@ createApp({
                         accessArea:" Grey Lord's Mansion."
                     },
             
-                    whamon:{
+                    {
                         id:"whamon",
                         name:"Whamon",
                         stage:"Champion",
@@ -719,7 +718,7 @@ createApp({
                         accessArea:"Ice Sanctuary."
                     },
             
-                    ninjamon:{
+                    {
                         id:"ninjamon",
                         name:"Ninjamon",
                         stage:"Champion",
@@ -751,7 +750,7 @@ createApp({
                         accessArea:""
                     },
             
-                    frigimon:{
+                    {
                         id:"frigimon",
                         name:"Frigimon",
                         stage:"Champion",
@@ -782,7 +781,7 @@ createApp({
                         accessArea:"Ice Sanctuary."
                     },
             
-                    centarumon:{
+                    {
                         id:"centarumon",
                         name:"Centarumon",
                         stage:"Champion",
@@ -813,7 +812,7 @@ createApp({
                         accessArea:"Ice Sanctuary."
                     },
             
-                    ogremon:{
+                    {
                         id:"ogremon",
                         name:"Ogremon",
                         stage:"Champion",
@@ -845,7 +844,7 @@ createApp({
                         accessArea:"Grey Lord's Mansion."
                     },
             
-                    leomon:{
+                    {
                         id:"leomon",
                         name:"Leomon",
                         stage:"Champion",
@@ -876,7 +875,7 @@ createApp({
                         accessArea:"Grey Lord's Mansion."
                     },
             
-                    kabuterimon:{
+                    {
                         id:"kabuterimon",
                         name:"Kabuterimon",
                         stage:"Champion",
@@ -909,7 +908,7 @@ createApp({
                         accessArea:"Grey Lord's Mansion."
                     },
             
-                    kuwagamon:{
+                    {
                         id:"kuwagamon",
                         name:"Kuwagamon",
                         stage:"Champion",
@@ -942,7 +941,7 @@ createApp({
                         accessArea:"Grey Lord's Mansion."
                     },
             
-                    shellmon:{
+                    {
                         id:"shellmon",
                         name:"Shellmon",
                         stage:"Champion",
@@ -976,7 +975,7 @@ createApp({
                         accessArea:""
                     },
             
-                    birdramon:{
+                    {
                         id:"birdramon",
                         name:"Birdramon",
                         stage:"Champion",
@@ -1012,7 +1011,7 @@ createApp({
                         accessArea:"Ice Sanctuary."
                     },
             
-                    angemon:{
+                    {
                         id:"angemon",
                         name:"Angemon",
                         stage:"Champion",
@@ -1045,7 +1044,7 @@ createApp({
                         accessArea:"Ice Sanctuary."
                     },
             
-                    devimon:{
+                    {
                         id:"devimon",
                         name:"Devimon",
                         stage:"Champion",
@@ -1067,7 +1066,7 @@ createApp({
                         accessArea:"Grey Lord's Mansion."
                     },
             
-                    airdramon:{
+                    {
                         id:"airdramon",
                         name:"Airdramon",
                         stage:"Champion",
@@ -1101,7 +1100,7 @@ createApp({
                         accessArea:"Ice Sanctuary."
                     },
             
-                    kokatorimon:{
+                    {
                         id:"kokatorimon",
                         name:"Kokatorimon",
                         stage:"Champion",
@@ -1134,7 +1133,7 @@ createApp({
                         accessArea:"Ice Sanctuary."
                     },
             
-                    unimon:{
+                    {
                         id:"unimon",
                         name:"Unimon",
                         stage:"Champion",
@@ -1167,7 +1166,7 @@ createApp({
                         accessArea:"Ice Sanctuary."
                     },
             
-                    seadramon:{
+                    {
                         id:"seadramon",
                         name:"Seadramon",
                         stage:"Champion",
@@ -1200,13 +1199,13 @@ createApp({
                         accessArea:""
                     },
             
-                },
+                ],
             
                 /*Champion Stage Digimon Object*/
             
-                Ultimate={
+                Ultimate:[
             
-                    metalGreymon:{
+                    {
                         id:"metalGreymon",
                         name:"MetalGreymon",
                         stage:"Ultimate",
@@ -1238,7 +1237,7 @@ createApp({
                         accessArea:"Grey Lord's Mansion"
                     },
             
-                    skullGreymon:{
+                    {
                         id:"skullGreymon",
                         name:"SkullGreymon",
                         stage:"Ultimate",
@@ -1270,7 +1269,7 @@ createApp({
                         accessArea:"Grey Lord's Mansion"
                     },
             
-                    digitamamon:{
+                    {
                         id:"digitamamon",
                         name:"Digitamamon",
                         stage:"Ultimate",
@@ -1301,7 +1300,7 @@ createApp({
                         accessArea:"Grey Lord's Mansion"
                     },
             
-                    monzaemon:{
+                    {
                         id:"monzaemon",
                         name:"Monzaemon",
                         stage:"Ultimate",
@@ -1332,7 +1331,7 @@ createApp({
                         accessArea:"Ice Sanctuary."
                     },
             
-                    etemon:{
+                    {
                         id:"etemon",
                         name:"Etemon",
                         stage:"Ultimate",
@@ -1363,7 +1362,7 @@ createApp({
                         accessArea:"Grey Lord's Mansion."
                     },
             
-                    mamemon:{
+                    {
                         id:"mamemon",
                         name:"Mamemon",
                         stage:"Ultimate",
@@ -1394,7 +1393,7 @@ createApp({
                         accessArea:""
                     },
             
-                    metalmamemon:{
+                    {
                         id:"mamemon",
                         name:"Mamemon",
                         stage:"Ultimate",
@@ -1425,7 +1424,7 @@ createApp({
                         accessArea:""
                     },
             
-                    andromon:{
+                    {
                         id:"andromon",
                         name:"Andromon",
                         stage:"Ultimate",
@@ -1456,7 +1455,7 @@ createApp({
                         accessArea:"Ice Sanctuary."
                     },
             
-                    herculesKabuterimon:{
+                    {
                         id:"herculesKabuterimon",
                         name:"Hercules Kabuterimon",
                         stage:"Ultimate",
@@ -1487,7 +1486,7 @@ createApp({
                         accessArea:""
                     },
             
-                    phoenixmon:{
+                    {
                         id:"phoenixmon",
                         name:"Phoenixmon",
                         stage:"Ultimate",
@@ -1518,7 +1517,7 @@ createApp({
                         accessArea:"Ice Sanctuary."
                     },
             
-                    vademon:{
+                    {
                         id:"vademon",
                         name:"Vademon",
                         stage:"Ultimate",
@@ -1550,7 +1549,7 @@ createApp({
                         accessArea:"Grey Lord's Mansion."
                     },
             
-                    megaDramon:{
+                    {
                         id:"megadramon",
                         name:"Megadramon",
                         stage:"Ultimate",
@@ -1580,11 +1579,6 @@ createApp({
                         },
                         accessArea:"Grey Lord's Mansion."
                     },
-                }
-            ]
+                ],
+            }
         }
-    }
-}
-
-
-console.log(digiList)
