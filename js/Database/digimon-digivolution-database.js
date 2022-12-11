@@ -1,7 +1,7 @@
-
-const { createApp } = Vue;
+import { createApp } from 'vue'
 
 createApp({
+    el:"#app",
     data(){
         return{
              /*Egg Stage Digimon Object*/
@@ -1581,5 +1581,5 @@ createApp({
             ],
         }
     }
-})
+}).mount('#app')
     

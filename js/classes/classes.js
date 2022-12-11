@@ -49,7 +49,7 @@ export class champion{
        }
 }
 
-export class champion{
+export class ultimate{
     constructor( id, name, stage, type, preDigivolution, digivolution,image, statReq, specialReq,bonus, accessArea)
        {
         this.id = id,
