@@ -1,23 +1,17 @@
-import { egg } from "../js/classes/classes.js";
 
 const { createApp } = Vue;
 
 createApp({
     data(){
         return{
-            digiList:[
              /*Egg Stage Digimon Object*/
-             
-             
-             new egg( 
-             "blue",
-             "blue",
-             "Punimon",
-             ),
+             egg:[
             
-                
-                   
-                
+                {
+                    id:"blue",
+                    eggtype:"blue",
+                    digimon:"Punimon",
+                },
         
                 {
                     id:"green",
@@ -78,11 +72,11 @@ createApp({
                     digivolution:["tanemon"],
                     image: "https://www.grindosaur.com/img/games/digimon-world/digimon/123-yuramon.jpg"
                 },
-   
+            ],
         
             /*In-training Stage Digimon Object*/
         
-            intraining:
+            intraining:[
         
                 {
                     id:"koromon",
@@ -123,11 +117,11 @@ createApp({
                     digivolution:["Betamon","Palmon","Kunemon"],
                     image: "https://www.grindosaur.com/img/games/digimon-world/digimon/103-tanemon.jpg"
                 },
-          
+            ],
         
              /*Rookie Stage Digimon Object*/
         
-             rookie:
+             rookie:[
         
                 {
                     id:"agumon",
@@ -1204,7 +1198,7 @@ createApp({
                     accessArea:""
                 },
         
-          
+            ],
         
             /*Champion Stage Digimon Object*/
         
