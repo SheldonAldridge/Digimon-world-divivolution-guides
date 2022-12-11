@@ -32,6 +32,23 @@ export class intraining{
        }
 }
 
+export class rookie{
+    constructor( id, name, stage, type, preDigivolution, digivolution,image)
+       {
+        this.id = id,
+        this.name = name,
+        this.stage = stage,
+        this.type = type,
+        this.type = preDigivolution,
+        this.digivolution = digivolution,
+        this.image = image,
+        this.statReq = statReq,
+        this.specialReq = specialReq,
+        this.bonus = bonus,
+        this.bonus = accessArea
+       }
+}
+
 export class champion{
     constructor( id, name, stage, type, preDigivolution, digivolution,image, statReq, specialReq,bonus, accessArea)
        {
