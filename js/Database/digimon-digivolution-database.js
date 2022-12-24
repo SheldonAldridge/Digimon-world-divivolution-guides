@@ -1,12 +1,8 @@
-import {createApp} from 'vue'
 
-createApp({
-    el:"#app",
+const app = Vue.createApp({
     data(){
         return{
-             /*Egg Stage Digimon Object*/
-             egg:[
-            
+            egg:[           
                 {
                     id:"blue",
                     eggtype:"blue",
@@ -30,11 +26,8 @@ createApp({
                     eggtype:"pink",
                     digimon:"Yuramon",
                 },
-                
-            ],
-        
-            /*Baby Stage Digimon Object*/
-        
+    ],    
+    /*Baby Stage Digimon Object*/
             baby:[
                 
                 {
@@ -72,10 +65,8 @@ createApp({
                     digivolution:["tanemon"],
                     image: "https://www.grindosaur.com/img/games/digimon-world/digimon/123-yuramon.jpg"
                 },
-            ],
-        
-            /*In-training Stage Digimon Object*/
-        
+    ], 
+    /*In-training Stage Digimon Object*/
             intraining:[
         
                 {
@@ -117,11 +108,9 @@ createApp({
                     digivolution:["Betamon","Palmon","Kunemon"],
                     image: "https://www.grindosaur.com/img/games/digimon-world/digimon/103-tanemon.jpg"
                 },
-            ],
-        
-             /*Rookie Stage Digimon Object*/
-        
-             rookie:[
+    ], 
+    /*Rookie Stage Digimon Object*/  
+            rookie:[
         
                 {
                     id:"agumon",
@@ -355,11 +344,9 @@ createApp({
                     accessArea:"Grey Lord's Mansion.",
                 },
         
-            ],
-        
-             /*Champion Stage Digimon Object*/
-        
-             champion:[
+    ],
+    /*Champion Stage Digimon Object*/     
+    champion:[
         
                 {
                     id:"greymon",
@@ -1198,11 +1185,9 @@ createApp({
                     accessArea:""
                 },
         
-            ],
-        
-            /*Champion Stage Digimon Object*/
-        
-            Ultimate:[
+    ],       
+    /*Champion Stage Digimon Object*/    
+    Ultimate:[
         
                 {
                     id:"metalGreymon",
@@ -1578,8 +1563,14 @@ createApp({
                     },
                     accessArea:"Grey Lord's Mansion."
                 },
-            ],
+    ]
         }
     }
-}).mount('#app')
+
+    
+})
+
+app.mount('#app')
+
+
     

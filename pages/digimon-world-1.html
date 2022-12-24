@@ -7,34 +7,24 @@
     <title>Digimon World 1 | Digivolution Guide</title>
 
     <link rel="stylesheet" href="/css/digivolution-guide.css" />
+    <!--Bootstrap 5 CDN-->
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
 
-    <script src="https://vuejs.org/guide/quick-start.html"></script>
-    <script src="../js/Database/digimon-digivolution-database.js" type="module"></script>
-    <script src="../problem.js"></script>
+    <!--Vue JS CDN-->
+    <script src="https://unpkg.com/vue@next" defer></script>
+    <script src="../js/Database/digimon-digivolution-database.js" type="module" defer></script>
     
   </head>
   <body>
 
     <div id="app">
-      
-      <div class="hero-container">
-        <h3>Which Egg Do You Want?</h3>
-        <div class="egg-images">
-          <img src="/Images/Blue Egg - mobile.png" alt="blue-egg" />
-          <img src="/Images/Green Egg - mobile.png" alt="green-egg" />
-          <img src="/Images/Orange Egg - mobile.png" alt="orange-egg" />
-          <img src="/Images/Pink Egg - mobile.png" alt="pink-egg" />
-        </div>
+
+      <div class="egg">
+       
       </div>
-
-      <div class="inTraining-container">
-        <div v-for="egg in digimon" class="inTraining-digimon">
-          
-        </div>
-
-        
-      </div>
-
     </div>
+
+
+
   </body>
 </html>
