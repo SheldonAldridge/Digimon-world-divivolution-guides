@@ -1,7 +1,7 @@
 body{
     margin: 0;
     box-sizing: border-box;
-    font-family: digimon;
+    font-family: digimon !important;
 }
 
 @font-face{
@@ -9,29 +9,37 @@ body{
     src: url("/fonts/digimon-text/PixelDigivolveItalic-dV8R.ttf");
 }
 
-.question{
-    position: absolute;
+:root{
+    --white-color:#ffffff;
 }
 
-.hero-image{
-    background-image: url(/Images/hero-image.png);
+.container-fluid{
+    --bs-gutter-x: 0em !important;
+}
+
+.hero-image img{
+    width: 100vw;
+    height: 15vh;
+    object-fit: cover;
+}
+
+#choice{
+    position: absolute;
+    font-size: 1em;
+    color:var(--white-color);
+    margin: 0.2em 2.58em;
+}
+
+.egg-choice{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    background-position: 10% 60%;
+
 }
 
-.hero-container h3{
-    color:white;
-    position:absolute;
-    margin-left: 4em;
-    font-weight: 100;
-}
 
-.egg-images img{
-    max-width: 80%;
-    padding-top: 6em;
-    padding-left: 0.5em;
-    padding-bottom: 1em;
+.egg-choice img{
+    max-width: 60%;
+    margin: -4em 1em;
 }
 
 
