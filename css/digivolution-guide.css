@@ -13,7 +13,7 @@ body{
     position: absolute;
 }
 
-.egg-images{
+.hero-image{
     background-image: url(/Images/hero-image.png);
     display: grid;
     grid-template-columns: repeat(4,1fr);
