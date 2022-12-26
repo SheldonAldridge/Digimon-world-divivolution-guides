@@ -7,6 +7,7 @@ const app = Vue.createApp({
                     id:"blue",
                     eggtype:"blue",
                     digimon:"Punimon",
+                    image:""
                 },
         
                 {
@@ -346,7 +347,7 @@ const app = Vue.createApp({
         
     ],
     /*Champion Stage Digimon Object*/     
-    champion:[
+            champion:[
         
                 {
                     id:"greymon",
@@ -1187,7 +1188,7 @@ const app = Vue.createApp({
         
     ],       
     /*Champion Stage Digimon Object*/    
-    Ultimate:[
+            Ultimate:[
         
                 {
                     id:"metalGreymon",
@@ -1565,8 +1566,18 @@ const app = Vue.createApp({
                 },
     ]
         }
-    }
+    },
 
+
+    methods: {
+        blueEgg(){
+           let egg = alert(`The ${this.egg[0]}`)
+        },
+
+        if(egg){
+            JSON.stringify(this.egg)
+        }
+    },
     
 })
 
