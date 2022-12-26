@@ -11,6 +11,11 @@ body{
 
 :root{
     --white-color:#ffffff;
+    --baby-yellow:#FFF141;
+    --training-blue:#19E0FA;
+    --rookie-gold:#AD9B11;
+    --champion-pink:#FA198C;
+    --ultimate-violet:#AD095D;
 }
 
 .container-fluid{
@@ -36,11 +41,18 @@ body{
 
 }
 
-
 .egg-choice img{
-    max-width: 60%;
-    margin: -4em 1em;
+    max-width: 48%;
+    margin: -3em 1em;
 }
 
+#yellow-background{
+    background-color: var(--baby-yellow);
+    height:50vw;
+}
 
-
+#yellow-background h1{
+    font-size: 15px;
+    text-align: center;
+    padding: 0.3em;
+}

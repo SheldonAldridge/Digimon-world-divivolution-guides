@@ -1568,15 +1568,19 @@ const app = Vue.createApp({
         }
     },
 
+    computed:{
+        covertObj(digimon){
+            let obj = JSON.parse(digimon)
+        }
+    },
+
 
     methods: {
         blueEgg(){
-           let egg = alert(`The ${this.egg[0]}`)
+          const container = document.createElement("div");
+          container.classList = "container";
+          
         },
-
-        if(egg){
-            JSON.stringify(this.egg)
-        }
     },
     
 })
