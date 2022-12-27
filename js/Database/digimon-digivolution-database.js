@@ -1568,21 +1568,11 @@ const app = Vue.createApp({
     ]
         }
     },
+   
 
     methods: {
         blueEgg(){
-           let container = document.querySelector(".container");
-            container.innerHTML = `<div id="background">
-            <div class="heading">
-            <h1>In-training Stage</h1>
-            <button class="close">X</button>
-            </div>
-            <div class="punimon-image">
-            <img :src="baby[2].image" alt="" />
-          </div>
-        </div>
-            `
-
+            
         },
     },
     
