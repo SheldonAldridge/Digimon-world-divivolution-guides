@@ -1570,7 +1570,6 @@ const app = Vue.createApp({
 
     methods: {
         blueEgg(){
-            JSON.parse(JSON.stringify(baby[2].image))
 
            let container = document.querySelector(".container");
             container.innerHTML = `<img class="digital" src="../Images/Abstract modern 001 wallpaper by DP_SRB - Download on ZEDGE™ _ 241a.jfif" alt="">
