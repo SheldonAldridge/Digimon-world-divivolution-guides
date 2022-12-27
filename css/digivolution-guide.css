@@ -11,11 +11,7 @@ body{
 
 :root{
     --white-color:#ffffff;
-    --baby-yellow:#FFF141;
-    --training-blue:#19E0FA;
-    --rookie-gold:#AD9B11;
-    --champion-pink:#FA198C;
-    --ultimate-violet:#AD095D;
+    --green-color:#00ff00;
 }
 
 .container-fluid{
@@ -46,13 +42,35 @@ body{
     margin: -3em 1em;
 }
 
-#yellow-background{
-    background-color: var(--baby-yellow);
-    height:50vw;
+.digital{
+    max-width: 69.2%;
+    -webkit-transform:rotate(90deg);
+    position: absolute;
+    z-index: -1;
+    margin: -6em 0em;
+    opacity: 0.5;
+    
 }
 
-#yellow-background h1{
+.heading{
+    display: flex;
+}
+
+.heading h1{
+    color: var(--green-color);
     font-size: 15px;
-    text-align: center;
-    padding: 0.3em;
+    margin: 0.5em 3em;
+}
+
+.close{
+    margin-top: 0.3em;
+    font-size: 10px;
+}
+
+.punimon-image{
+    margin: 1.5em 1em;
+}
+
+.punimon-image img{
+    max-width: 25%;
 }

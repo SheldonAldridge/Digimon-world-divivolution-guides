@@ -8,41 +8,44 @@
 
     <link rel="stylesheet" href="/css/digivolution-guide.css" />
     <!--Bootstrap 5 CDN-->
-    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
 
     <!--Vue JS CDN-->
     <script src="https://unpkg.com/vue@next" defer></script>
-    <script src="../js/Database/digimon-digivolution-database.js" type="module" defer></script>
-    
+    <script
+      src="../js/Database/digimon-digivolution-database.js"
+      type="module"
+      defer
+    ></script>
   </head>
   <body>
-
     <div id="app">
-
       <div class="container-fluid">
         <div class="hero-image">
           <p class="display-5" id="choice">Which egg do you want?</p>
-          <img src="../Images/hero-image.png" alt="">
+          <img src="../Images/hero-image.png" alt="" />
         </div>
-      
 
-      <div class="egg-choice">
-        <img @click = "blueEgg" src="/Images/Blue Egg - mobile.png" alt="Blue Egg">
-        <img src="/Images/Green Egg - mobile.png" alt="Green Egg">
-        <img src="/Images/Orange Egg - mobile.png" alt="Orange Egg">
-        <img src="/Images/Pink Egg - mobile.png" alt="Pink Egg">
+        <div class="egg-choice">
+          <img
+            @click="blueEgg"
+            src="/Images/Blue Egg - mobile.png"
+            alt="Blue Egg"
+          />
+          <img src="/Images/Green Egg - mobile.png" alt="Green Egg" />
+          <img src="/Images/Orange Egg - mobile.png" alt="Orange Egg" />
+          <img src="/Images/Pink Egg - mobile.png" alt="Pink Egg" />
+        </div>
       </div>
-    </div>
 
-    <div class="container" id="yellow-background">
-      <h1>In-training Stage</h1>
-    </div>
-
-      
+      <div class="container" id="background">
+       
+      </div>
 
     </div>
-
-
-
   </body>
 </html>
+

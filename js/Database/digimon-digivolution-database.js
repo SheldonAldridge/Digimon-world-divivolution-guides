@@ -1568,18 +1568,21 @@ const app = Vue.createApp({
         }
     },
 
-    computed:{
-        covertObj(digimon){
-            let obj = JSON.parse(digimon)
-        }
-    },
-
-
     methods: {
         blueEgg(){
-          const container = document.createElement("div");
-          container.classList = "container";
-          
+            JSON.parse(JSON.stringify(baby[2].image))
+
+           let container = document.querySelector(".container");
+            container.innerHTML = `<img class="digital" src="../Images/Abstract modern 001 wallpaper by DP_SRB - Download on ZEDGE™ _ 241a.jfif" alt="">
+            <div class="heading">
+            <h1>In-training Stage</h1>
+            <button class="close">X</button>
+            </div>
+            <div class="punimon-image">
+            <img :src="baby[2].image" alt="">
+            </div>`
+
+
         },
     },
     
