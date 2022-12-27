@@ -1,4 +1,5 @@
 
+
 const app = Vue.createApp({
     data(){
         return{
@@ -1570,17 +1571,17 @@ const app = Vue.createApp({
 
     methods: {
         blueEgg(){
-
            let container = document.querySelector(".container");
-            container.innerHTML = `<img class="digital" src="../Images/Abstract modern 001 wallpaper by DP_SRB - Download on ZEDGE™ _ 241a.jfif" alt="">
+            container.innerHTML = `<div id="background">
             <div class="heading">
             <h1>In-training Stage</h1>
             <button class="close">X</button>
             </div>
             <div class="punimon-image">
-            <img :src="baby[2].image" alt="">
-            </div>`
-
+            <img :src="baby[2].image" alt="" />
+          </div>
+        </div>
+            `
 
         },
     },

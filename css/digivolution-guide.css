@@ -42,13 +42,17 @@ body{
     margin: -3em 1em;
 }
 
-.digital{
-    max-width: 69.2%;
-    -webkit-transform:rotate(90deg);
+.container{
+    --bs-gutter-x:0em !important;
+}
+
+#background{
+    background-image: url("../Images/hero-image.png");
+    margin: 0em 0em;
     position: absolute;
-    z-index: -1;
-    margin: -6em 0em;
-    opacity: 0.5;
+    z-index: -3;
+    object-fit: cover;
+    width: 100%;
     
 }
 
@@ -59,7 +63,14 @@ body{
 .heading h1{
     color: var(--green-color);
     font-size: 15px;
-    margin: 0.5em 3em;
+    margin: 0.5em 4em;
+}
+
+.close{
+    position: relative;
+    background-color: var(--green-color);
+    border: none;
+    padding: 0 0.3em;
 }
 
 .close{
@@ -69,8 +80,10 @@ body{
 
 .punimon-image{
     margin: 1.5em 1em;
+    
 }
 
 .punimon-image img{
-    max-width: 25%;
+    width: 25%;
+    height: 25%;
 }
