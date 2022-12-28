@@ -3,30 +3,30 @@
 const app = Vue.createApp({
     data(){
         return{
+            digilist:[{
             egg:[           
                 {
                     id:"blue",
                     eggtype:"blue",
-                    digimon:"Punimon",
-                    image:""
+                    name:"Punimon",
                 },
         
                 {
                     id:"green",
                     eggtype:"green",
-                    digimon:"Botamon",
+                    name:"Botamon",
                 },
         
                {
                     id:"orange",
                     eggtype:"orange",
-                    digimon:"Poyomon",
+                    name:"Poyomon",
                 },
         
                 {
                     id:"pink",
                     eggtype:"pink",
-                    digimon:"Yuramon",
+                    name:"Yuramon",
                 },
     ],    
     /*Baby Stage Digimon Object*/
@@ -37,6 +37,7 @@ const app = Vue.createApp({
                     name:"Botamon",
                     stage:"Baby",
                     type:"Data",
+                    preDigivolution:["green"],
                     digivolution:["Koromon"],
                     image: "https://www.grindosaur.com/img/games/digimon-world/digimon/12-botamon.jpg"
                 },
@@ -46,6 +47,7 @@ const app = Vue.createApp({
                     name:"Poyomon",
                     stage:"Baby",
                     type:"Data",
+                    preDigivolution:["orange"],
                     digivolution:["tokomon"],
                     image: "https://www.grindosaur.com/img/games/digimon-world/digimon/86-poyomon.jpg"
                 },
@@ -55,6 +57,7 @@ const app = Vue.createApp({
                     name:"Punimon",
                     stage:"Baby",
                     type:"Data",
+                    preDigivolution:["blue"],
                     digivolution:["tsunomon"],
                     image: "https://www.grindosaur.com/img/games/digimon-world/digimon/88-punimon.jpg"
                 },
@@ -64,6 +67,7 @@ const app = Vue.createApp({
                     name:"Yuramon",
                     stage:"Baby",
                     type:"Data",
+                    preDigivolution:["pink"],
                     digivolution:["tanemon"],
                     image: "https://www.grindosaur.com/img/games/digimon-world/digimon/123-yuramon.jpg"
                 },
@@ -1566,17 +1570,19 @@ const app = Vue.createApp({
                     accessArea:"Grey Lord's Mansion."
                 },
     ]
+}]
         }
     },
-   
 
     methods: {
-        blueEgg(){
-           
-            
-        },
+        filterDigiList(name,preDigivolution){
+            if(name === preDigivolution) {
+                
+            }
+        }
     },
     
+
 })
 
 app.mount('#app')

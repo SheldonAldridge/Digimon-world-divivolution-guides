@@ -22,6 +22,7 @@
     ></script>
   </head>
   <body>
+
     <div id="app">
       <div class="container-fluid">
         <div class="hero-image">
@@ -31,7 +32,6 @@
 
         <div class="egg-choice">
           <img
-            @click="blueEgg"
             src="/Images/Blue Egg - mobile.png"
             alt="Blue Egg"
           />
@@ -41,6 +41,9 @@
         </div>
       </div>
 
+      <p v-for="d in filterDigiList">{{ d }}</p>
+
+      <!--
       <div class="container" id="background">
           <div class="heading">
             <h1>{{baby[2].stage}} Stage</h1>
@@ -53,14 +56,12 @@
               <img :src="intraining[2].image" alt="Tsunomon" />
             </div>
           </div>
-          
+      -->    
           
 
           
 
           
       </div>
-
-    </div>
   </body>
 </html>
