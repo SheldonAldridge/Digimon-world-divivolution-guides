@@ -1572,6 +1572,7 @@ const app = Vue.createApp({
 
     methods: {
         blueEgg(){
+           
             
         },
     },

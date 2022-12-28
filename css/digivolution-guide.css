@@ -56,32 +56,31 @@ body{
     
 }
 
-
-
 .heading h1{
     color: var(--green-color);
     font-size: 15px;
-    margin: 0.5em 6em;
+    margin: 0.5em 7em;
+    width: 35%;
 }
 
 .close{
-    position: relative;
-    color: var(--green-color);
-    padding: 0 0.3em;
-}
-
-.close{
-    margin: 1em 28em; 
+    margin: -2.3em 27em;
     font-size: 10px;
     position: absolute;
+    color:var(--green-color);
 }
 
-.punimon-image{
+.punimon-image,.tsunomon-image{
     margin: 1.5em 1em;
-    
 }
 
-.punimon-image img{
-    width: 25%;
-    height: 25%;
+.punimon-image img,.tsunomon-image img{
+    max-width: 21%;
+    margin: 0em 6.8em;
+}
+
+.vert-line{
+    border-left: 2px solid var(--green-color);
+    height: 5vh;
+    margin: 0em 8.5em;
 }
