@@ -1575,12 +1575,12 @@ const app = Vue.createApp({
     },
 
     methods: {
-        filterDigiList(name,preDigivolution){
-            if(name === preDigivolution) {
-                
-            }
+
+        filterEgg:function(digilist){
+            return digilist.filter(digilist => digilist.egg.indexOf(this.egg))
         }
     },
+    
     
 
 })
