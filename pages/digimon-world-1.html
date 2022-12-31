@@ -14,14 +14,16 @@
     />
 
     <!--Vue JS CDN-->
-    <script src="https://unpkg.com/vue@next" defer></script>
-    <script
-      src="../js/Database/digimon-digivolution-database.js"
-      type="module"
-      defer
-    ></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js" defer></script>
+  
+    <!--Vue JS Database-->
+    <script src="../js/Database/digimon-digivolution-database.js" defer></script>
+    
+    
   </head>
   <body>
+
+   
 
     <div id="app">
       <div class="container-fluid">
@@ -40,9 +42,9 @@
           <img src="../Images/Pink Egg - mobile.png" alt="Pink Egg" />
         </div>
       </div>
-
-      <p v-for="d in digilist">{{ d }}</p>
-
+      
+      <p v-for="egg in filteredEgg">{{ egg }}</p>
+      
       <!--
       <div class="container" id="background">
           <div class="heading">
@@ -57,11 +59,6 @@
             </div>
           </div>
       -->    
-          
-
-          
-
-          
       </div>
   </body>
 </html>

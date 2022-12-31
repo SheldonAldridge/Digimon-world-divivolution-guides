@@ -1,6 +1,7 @@
+const { createApp } = Vue;
 
+const app = createApp({
 
-const app = Vue.createApp({
     data(){
         return{
             digilist:[{
@@ -1193,7 +1194,7 @@ const app = Vue.createApp({
         
     ],       
     /*Champion Stage Digimon Object*/    
-            Ultimate:[
+            ultimate:[
         
                 {
                     id:"metalGreymon",
@@ -1574,15 +1575,16 @@ const app = Vue.createApp({
         }
     },
 
-    methods: {
+    computed:{
+        filteredEgg(){
+            return this.digilist[0].egg.map((egg) => {
+                return egg.eggtype;
+          })
+        },
 
-        filterEgg:function(digilist){
-            return digilist.filter(digilist => digilist.egg.indexOf(this.egg))
-        }
-    },
-    
-    
+      },
 
+    
 })
 
 app.mount('#app')
