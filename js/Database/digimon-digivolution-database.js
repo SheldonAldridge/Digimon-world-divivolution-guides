@@ -1,33 +1,37 @@
+
 const { createApp } = Vue;
 
 const app = createApp({
 
     data(){
         return{
-            digilist:[{
             egg:[           
                 {
                     id:"blue",
                     eggtype:"blue",
                     name:"Punimon",
+                    image:"../Images/Blue Egg - mobile.png"
                 },
         
                 {
                     id:"green",
                     eggtype:"green",
                     name:"Botamon",
+                    image: "../Images/Green Egg - mobile.png"
                 },
         
                {
                     id:"orange",
                     eggtype:"orange",
                     name:"Poyomon",
+                    image: "../Images/Orange Egg - mobile.png"
                 },
         
                 {
                     id:"pink",
                     eggtype:"pink",
                     name:"Yuramon",
+                    image: "../Images/Pink Egg - mobile.png"
                 },
     ],    
     /*Baby Stage Digimon Object*/
@@ -1571,18 +1575,50 @@ const app = createApp({
                     accessArea:"Grey Lord's Mansion."
                 },
     ]
-}]
         }
     },
 
     computed:{
         filteredEgg(){
-            return this.digilist[0].egg.map((egg) => {
+            return this.egg.map((egg) => {
                 return egg.eggtype;
           })
-          
         },
 
+        filteredBaby(){
+            return this.baby.map((baby) => {
+                return baby.id;
+          })
+        },
+
+        filteredIntraining(){
+            return this.intraining.map((intraining) => {
+                return intraining.id;
+          })
+        },
+
+        filteredRookie(){
+            return this.rookie.map((rookie) => {
+                return rookie.id;
+          })
+        },
+
+        filteredChampion(){
+            return this.champion.map((champion) => {
+                return champion.id;
+          })
+        },
+
+        filteredUltimate(){
+            return this.ultimate.map((ultimate) => {
+                return ultimate.id;
+          })
+        },
+
+      },
+
+      methods: {
+           
       },
 
     

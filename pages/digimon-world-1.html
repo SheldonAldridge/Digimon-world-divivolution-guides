@@ -23,8 +23,6 @@
   </head>
   <body>
 
-   
-
     <div id="app">
       <div class="container-fluid">
         <div class="hero-image">
@@ -33,19 +31,14 @@
         </div>
 
         <div class="egg-choice">
-          <img
-            src="/Images/Blue Egg - mobile.png"
-            alt="Blue Egg"
-          />
-          <img src="../Images/Green Egg - mobile.png" alt="Green Egg" />
-          <img src="../Images/Orange Egg - mobile.png" alt="Orange Egg" />
-          <img src="../Images/Pink Egg - mobile.png" alt="Pink Egg" />
+          <img @click="blue" v-bind:src="egg[0].image" alt="Blue Egg"/>
+          <img @click="green" v-bind:src="egg[1].image" alt="Green Egg" />
+          <img @click="orange" v-bind:src="egg[2].image" alt="Orange Egg" />
+          <img @click="pink" v-bind:src="egg[3].image" alt="Pink Egg" />
         </div>
       </div>
       
-      <p v-for="egg in filteredEgg">{{ egg }}</p>
-      
-      
+      <p v-for="egg in filteredEgg">{{egg}}</p>
       <!--
       <div class="container" id="background">
           <div class="heading">
