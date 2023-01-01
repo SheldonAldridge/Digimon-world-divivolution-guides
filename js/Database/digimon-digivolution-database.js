@@ -1580,9 +1580,12 @@ const app = createApp({
             return this.digilist[0].egg.map((egg) => {
                 return egg.eggtype;
           })
+          
         },
 
       },
+
+    
 
     
 })
