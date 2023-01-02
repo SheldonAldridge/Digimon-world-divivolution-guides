@@ -9,28 +9,28 @@ const app = createApp({
                 {
                     id:"blue",
                     eggtype:"blue",
-                    name:"Punimon",
+                    digivolution:"Punimon",
                     image:"../Images/Blue Egg - mobile.png"
                 },
         
                 {
                     id:"green",
                     eggtype:"green",
-                    name:"Botamon",
+                    digivolution:"Botamon",
                     image: "../Images/Green Egg - mobile.png"
                 },
         
                {
                     id:"orange",
                     eggtype:"orange",
-                    name:"Poyomon",
+                    digivolution:"Poyomon",
                     image: "../Images/Orange Egg - mobile.png"
                 },
         
                 {
                     id:"pink",
                     eggtype:"pink",
-                    name:"Yuramon",
+                    digivolution:"Yuramon",
                     image: "../Images/Pink Egg - mobile.png"
                 },
     ],    
@@ -1578,13 +1578,9 @@ const app = createApp({
         }
     },
 
+    /* 
     computed:{
-        filteredEgg(){
-            return this.egg.map((egg) => {
-                return egg.eggtype;
-          })
-        },
-
+ 
         filteredBaby(){
             return this.baby.map((baby) => {
                 return baby.id;
@@ -1616,9 +1612,16 @@ const app = createApp({
         },
 
       },
+*/
 
       methods: {
-           
+        blue(){
+            let blueBaby = this.egg.find( baby => baby.digivolution("punimon"))
+            let blueTraining = this.training.find(training => training.preDigivolution("punimon"))
+            if(blueBaby === blueTraining){
+                return this.baby.image
+            }
+        }
       },
 
     
